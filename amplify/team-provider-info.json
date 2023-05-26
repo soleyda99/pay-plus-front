@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-payplusfront-staging-01620-authRole",
+      "UnauthRoleArn": "arn:aws:iam::103521538165:role/amplify-payplusfront-staging-01620-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::103521538165:role/amplify-payplusfront-staging-01620-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-payplusfront-staging-01620-deployment",
+      "UnauthRoleName": "amplify-payplusfront-staging-01620-unauthRole",
+      "StackName": "amplify-payplusfront-staging-01620",
+      "StackId": "arn:aws:cloudformation:us-east-1:103521538165:stack/amplify-payplusfront-staging-01620/60158b60-fa91-11ed-8270-0e02de55bba3",
+      "AmplifyAppId": "d39m17jm91ghac"
+    }
+  }
+}

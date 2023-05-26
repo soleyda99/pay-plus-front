@@ -1,0 +1,91 @@
+/***************************************************************************
+ * The contents of this file were generated with Amplify Studio.           *
+ * Please refrain from making any modifications to this file.              *
+ * Any changes to this file will be overwritten when running amplify pull. *
+ **************************************************************************/
+
+import * as React from "react";
+import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
+import { FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
+export declare type CajasOverridesProps = {
+    Cajas?: PrimitiveOverrideProps<ViewProps>;
+    "BG Sistema"?: PrimitiveOverrideProps<FlexProps>;
+    "BG System"?: PrimitiveOverrideProps<ViewProps>;
+    Menu31395?: PrimitiveOverrideProps<FlexProps>;
+    Menu31396?: PrimitiveOverrideProps<ImageProps>;
+    Menu31397?: PrimitiveOverrideProps<ViewProps>;
+    Mantenimiento31398?: PrimitiveOverrideProps<FlexProps>;
+    Mantenimiento31399?: PrimitiveOverrideProps<TextProps>;
+    "caret-down31400"?: PrimitiveOverrideProps<ViewProps>;
+    Vector31401?: PrimitiveOverrideProps<IconProps>;
+    Usuarios31402?: PrimitiveOverrideProps<FlexProps>;
+    Usuarios31403?: PrimitiveOverrideProps<TextProps>;
+    "caret-down31404"?: PrimitiveOverrideProps<ViewProps>;
+    Vector31405?: PrimitiveOverrideProps<IconProps>;
+    Agencias?: PrimitiveOverrideProps<FlexProps>;
+    Agencia?: PrimitiveOverrideProps<TextProps>;
+    "caret-down31408"?: PrimitiveOverrideProps<ViewProps>;
+    Vector31409?: PrimitiveOverrideProps<IconProps>;
+    Reportes31410?: PrimitiveOverrideProps<FlexProps>;
+    Reportes31411?: PrimitiveOverrideProps<TextProps>;
+    "caret-down31412"?: PrimitiveOverrideProps<ViewProps>;
+    Vector31413?: PrimitiveOverrideProps<IconProps>;
+    Logout31414?: PrimitiveOverrideProps<FlexProps>;
+    Logout31415?: PrimitiveOverrideProps<TextProps>;
+    Logo?: PrimitiveOverrideProps<FlexProps>;
+    logo31417?: PrimitiveOverrideProps<ImageProps>;
+    "Rectangle 24"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 25"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 26"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 29"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 30"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 31"?: PrimitiveOverrideProps<ViewProps>;
+    "Line 6"?: PrimitiveOverrideProps<IconProps>;
+    "Line 5"?: PrimitiveOverrideProps<IconProps>;
+    "Linea Sistema"?: PrimitiveOverrideProps<FlexProps>;
+    "Rectangle 131429"?: PrimitiveOverrideProps<ViewProps>;
+    logo547?: PrimitiveOverrideProps<ImageProps>;
+    Footer?: PrimitiveOverrideProps<FlexProps>;
+    "Copyright (c) 2012 - 2013 CCM. All rights reserved"?: PrimitiveOverrideProps<TextProps>;
+    footer?: PrimitiveOverrideProps<ImageProps>;
+    "BTN Buscar"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 131434"?: PrimitiveOverrideProps<ViewProps>;
+    "Cerrer Solicitud"?: PrimitiveOverrideProps<TextProps>;
+    Cajas31436?: PrimitiveOverrideProps<TextProps>;
+    ID31437?: PrimitiveOverrideProps<TextProps>;
+    "Dep\u00F3sitos pendientes"?: PrimitiveOverrideProps<TextProps>;
+    Usuario?: PrimitiveOverrideProps<TextProps>;
+    "Hora de Apertura"?: PrimitiveOverrideProps<TextProps>;
+    Total?: PrimitiveOverrideProps<TextProps>;
+    Estado?: PrimitiveOverrideProps<TextProps>;
+    ID31443?: PrimitiveOverrideProps<TextProps>;
+    Fecha?: PrimitiveOverrideProps<TextProps>;
+    Hora?: PrimitiveOverrideProps<TextProps>;
+    Cuenta?: PrimitiveOverrideProps<TextProps>;
+    "Dep\u00F3sito"?: PrimitiveOverrideProps<TextProps>;
+    "Ver compobante31448"?: PrimitiveOverrideProps<TextProps>;
+    "Ver compobante31449"?: PrimitiveOverrideProps<TextProps>;
+    "Ver compobante31450"?: PrimitiveOverrideProps<TextProps>;
+    Input31451?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 131452"?: PrimitiveOverrideProps<ViewProps>;
+    Acumulado?: PrimitiveOverrideProps<TextProps>;
+    "$9999.9931454"?: PrimitiveOverrideProps<TextProps>;
+    Input31455?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 131465"?: PrimitiveOverrideProps<ViewProps>;
+    "Deposito disponible"?: PrimitiveOverrideProps<TextProps>;
+    "$9999.9931467"?: PrimitiveOverrideProps<TextProps>;
+    "Fecha del d\u00EDa"?: PrimitiveOverrideProps<TextProps>;
+    "lock-open31568"?: PrimitiveOverrideProps<ViewProps>;
+    Vector31569?: PrimitiveOverrideProps<IconProps>;
+    "lock-open31599"?: PrimitiveOverrideProps<ViewProps>;
+    Vector31600?: PrimitiveOverrideProps<IconProps>;
+    "lock-open31601"?: PrimitiveOverrideProps<ViewProps>;
+    Vector31602?: PrimitiveOverrideProps<IconProps>;
+    "lock-open31603"?: PrimitiveOverrideProps<ViewProps>;
+    Vector31605?: PrimitiveOverrideProps<IconProps>;
+} & EscapeHatchProps;
+export declare type CajasProps = React.PropsWithChildren<Partial<ViewProps> & {
+    overrides?: CajasOverridesProps | undefined | null;
+}>;
+export default function Cajas(props: CajasProps): React.ReactElement;
