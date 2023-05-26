@@ -623,7 +623,7 @@ export default function Caja(props) {
         borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641110")}
       ></Button>
-      <Link to="/comprobantedePago">
+      <Link to="/comprobante-pago">
         <Button
           width="117px"
           height="29px"
