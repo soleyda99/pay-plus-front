@@ -58,8 +58,6 @@ export declare type CajasAgenteOverridesProps = {
     "Dep\u00F3sito"?: PrimitiveOverrideProps<TextProps>;
     "Confirmaci\u00F3n"?: PrimitiveOverrideProps<TextProps>;
     "Confirmado por:"?: PrimitiveOverrideProps<TextProps>;
-    attach?: PrimitiveOverrideProps<ViewProps>;
-    Vector31812?: PrimitiveOverrideProps<IconProps>;
     "\uD83D\uDD12Icon641487"?: PrimitiveOverrideProps<IconProps>;
     TextField641489?: PrimitiveOverrideProps<TextFieldProps>;
     TextField641502?: PrimitiveOverrideProps<TextFieldProps>;
@@ -72,6 +70,7 @@ export declare type CajasAgenteOverridesProps = {
     Button641515?: PrimitiveOverrideProps<ButtonProps>;
     Button641519?: PrimitiveOverrideProps<ButtonProps>;
     "Text Button"?: PrimitiveOverrideProps<ButtonProps>;
+    "\uD83D\uDD12Icon641688"?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;
 export declare type CajasAgenteProps = React.PropsWithChildren<Partial<ViewProps> & {
     overrides?: CajasAgenteOverridesProps | undefined | null;

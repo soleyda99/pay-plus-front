@@ -7,7 +7,17 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
-import { Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import {
+  Button,
+  CheckboxField,
+  Flex,
+  Icon,
+  Image,
+  Text,
+  TextAreaField,
+  TextField,
+  View,
+} from "@aws-amplify/ui-react";
 export default function Depositos(props) {
   const { overrides, ...rest } = props;
   return (
@@ -653,7 +663,7 @@ export default function Depositos(props) {
           border="1px SOLID rgba(170,170,170,1)"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(255,255,255,0)"
-          {...getOverrideProps(overrides, "Rectangle 131863")}
+          {...getOverrideProps(overrides, "Rectangle 1")}
         ></View>
       </Flex>
       <Image
@@ -721,51 +731,6 @@ export default function Depositos(props) {
           {...getOverrideProps(overrides, "footer")}
         ></Image>
       </Flex>
-      <View
-        width="18px"
-        height="18px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="692px"
-        left="959px"
-        border="1px SOLID rgba(112,112,112,1)"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 37")}
-      ></View>
-      <View
-        width="18px"
-        height="18px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="725px"
-        left="959px"
-        border="1px SOLID rgba(112,112,112,1)"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 38")}
-      ></View>
-      <View
-        width="18px"
-        height="18px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="758px"
-        left="959px"
-        border="1px SOLID rgba(112,112,112,1)"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 39")}
-      ></View>
       <Text
         fontFamily="Times New Roman"
         fontSize="18px"
@@ -898,117 +863,6 @@ export default function Depositos(props) {
         children="Confirmación"
         {...getOverrideProps(overrides, "Confirmaci\u00F3n31876")}
       ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="11px"
-        fontWeight="400"
-        color="rgba(170,170,170,1)"
-        lineHeight="12.64892578125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="128px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="698px"
-        left="1054px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Ver Comprobante"
-        {...getOverrideProps(overrides, "Ver Comprobante31877")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="11px"
-        fontWeight="400"
-        color="rgba(170,170,170,1)"
-        lineHeight="12.64892578125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="128px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="729px"
-        left="1054px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Ver Comprobante"
-        {...getOverrideProps(overrides, "Ver Comprobante31878")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="11px"
-        fontWeight="400"
-        color="rgba(170,170,170,1)"
-        lineHeight="12.64892578125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="128px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="758px"
-        left="1054px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Ver Comprobante"
-        {...getOverrideProps(overrides, "Ver Comprobante31879")}
-      ></Text>
-      <View
-        width="18px"
-        height="18px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="937px"
-        left="959px"
-        border="1px SOLID rgba(112,112,112,1)"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 40")}
-      ></View>
-      <View
-        width="18px"
-        height="18px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="970px"
-        left="959px"
-        border="1px SOLID rgba(112,112,112,1)"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 41")}
-      ></View>
-      <View
-        width="18px"
-        height="18px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="1003px"
-        left="959px"
-        border="1px SOLID rgba(112,112,112,1)"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 42")}
-      ></View>
       <Text
         fontFamily="Times New Roman"
         fontSize="18px"
@@ -1297,191 +1151,6 @@ export default function Depositos(props) {
       ></Text>
       <Text
         fontFamily="Times New Roman"
-        fontSize="11px"
-        fontWeight="400"
-        color="rgba(170,170,170,1)"
-        lineHeight="12.64892578125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="128px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="943px"
-        left="1054px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Ver Comprobante"
-        {...getOverrideProps(overrides, "Ver Comprobante31896")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="11px"
-        fontWeight="400"
-        color="rgba(170,170,170,1)"
-        lineHeight="12.64892578125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="128px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="974px"
-        left="1054px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Ver Comprobante"
-        {...getOverrideProps(overrides, "Ver Comprobante31897")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="11px"
-        fontWeight="400"
-        color="rgba(170,170,170,1)"
-        lineHeight="12.64892578125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="128px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="1003px"
-        left="1054px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Ver Comprobante"
-        {...getOverrideProps(overrides, "Ver Comprobante31898")}
-      ></Text>
-      <View
-        width="18px"
-        height="18px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="1173px"
-        left="1109px"
-        border="1px SOLID rgba(112,112,112,1)"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 49")}
-      ></View>
-      <View
-        width="18px"
-        height="18px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="1209px"
-        left="1109px"
-        border="1px SOLID rgba(112,112,112,1)"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 50")}
-      ></View>
-      <View
-        width="18px"
-        height="18px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="1244px"
-        left="1109px"
-        border="1px SOLID rgba(112,112,112,1)"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 51")}
-      ></View>
-      <View
-        width="165px"
-        height="72px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="414px"
-        left="243px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(241,237,237,1)"
-        {...getOverrideProps(overrides, "Input")}
-      >
-        <View
-          width="165px"
-          height="72px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 36px - 0px)"
-          left="calc(50% - 82.5px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131903")}
-        ></View>
-        <Text
-          fontFamily="Times New Roman"
-          fontSize="10px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="0px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 0px - -19px)"
-          left="calc(50% - 43px - 0.5px)"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Depósitos Pendientes"
-          {...getOverrideProps(overrides, "Dep\u00F3sitos Pendientes31904")}
-        ></Text>
-        <Text
-          fontFamily="Times New Roman"
-          fontSize="24px"
-          fontWeight="700"
-          color="rgba(0,0,0,1)"
-          lineHeight="0px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 0px - 7px)"
-          left="calc(50% - 68px - 0.5px)"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="$9999.99 (99)"
-          {...getOverrideProps(overrides, "$9999.99 (99)")}
-        ></Text>
-      </View>
-      <Text
-        fontFamily="Times New Roman"
         fontSize="10px"
         fontWeight="400"
         color="rgba(0,0,0,1)"
@@ -1522,7 +1191,7 @@ export default function Depositos(props) {
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Depósitos Pendientes"
-        {...getOverrideProps(overrides, "Dep\u00F3sitos Pendientes31907")}
+        {...getOverrideProps(overrides, "Dep\u00F3sitos Pendientes")}
       ></Text>
       <Text
         fontFamily="Times New Roman"
@@ -1612,159 +1281,135 @@ export default function Depositos(props) {
         children="Ver Todo"
         {...getOverrideProps(overrides, "Ver Todo")}
       ></Text>
-      <View
-        width="124px"
-        height="24px"
+      <TextField
+        height="unset"
+        placeholder="Fecha"
+        position="absolute"
+        top="1172px"
+        left="916px"
+        size="small"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField")}
+      ></TextField>
+      <CheckboxField
+        width="unset"
+        height="unset"
+        position="absolute"
+        top="1178px"
+        left="1107px"
+        size="large"
+        defaultChecked={false}
+        isDisabled={false}
+        labelPosition="start"
+        {...getOverrideProps(overrides, "CheckboxField641587")}
+      ></CheckboxField>
+      <CheckboxField
+        width="unset"
+        height="unset"
+        position="absolute"
+        top="936px"
+        left="958px"
+        size="large"
+        defaultChecked={false}
+        isDisabled={false}
+        labelPosition="start"
+        {...getOverrideProps(overrides, "CheckboxField641595")}
+      ></CheckboxField>
+      <CheckboxField
+        width="unset"
+        height="unset"
+        position="absolute"
+        top="691px"
+        left="958px"
+        size="large"
+        defaultChecked={false}
+        isDisabled={false}
+        labelPosition="start"
+        {...getOverrideProps(overrides, "CheckboxField641603")}
+      ></CheckboxField>
+      <TextAreaField
+        width="167px"
+        height="74px"
+        position="absolute"
+        top="416px"
+        left="242px"
+        border="1px SOLID rgba(0,0,0,1)"
+        size="small"
+        isDisabled={true}
+        labelHidden={false}
+        variation="default"
+        {...getOverrideProps(overrides, "TextAreaField")}
+      ></TextAreaField>
+      <Text
+        fontFamily="Times New Roman"
+        fontSize="10px"
+        fontWeight="400"
+        color="rgba(0,0,0,1)"
+        lineHeight="0px"
+        textAlign="center"
         display="block"
+        direction="column"
+        justifyContent="unset"
+        width="unset"
+        height="unset"
         gap="unset"
         alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
         position="absolute"
-        top="1159px"
-        left="903px"
+        top="calc(50% - 0px - 382.5px)"
+        left="calc(50% - 40.5px - 394.5px)"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31912")}
-      >
-        <View
-          width="124px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 62px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131913")}
-        ></View>
-        <Text
-          fontFamily="Arial"
-          fontSize="14px"
-          fontWeight="400"
-          color="rgba(170,170,170,1)"
-          lineHeight="16.0986328125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="171px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 8px - 0px)"
-          left="17px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Fecha"
-          {...getOverrideProps(overrides, "Fecha31914")}
-        ></Text>
-      </View>
-      <View
-        width="124px"
-        height="24px"
+        whiteSpace="pre-wrap"
+        children="Deposito disponible"
+        {...getOverrideProps(overrides, "Deposito disponible")}
+      ></Text>
+      <Text
+        fontFamily="Times New Roman"
+        fontSize="24px"
+        fontWeight="700"
+        color="rgba(0,0,0,1)"
+        lineHeight="0px"
+        textAlign="center"
         display="block"
+        direction="column"
+        justifyContent="unset"
+        width="unset"
+        height="unset"
         gap="unset"
         alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
         position="absolute"
-        top="1198px"
-        left="903px"
+        top="calc(50% - 0px - 408.5px)"
+        left="calc(50% - 45px - 395px)"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31915")}
-      >
-        <View
-          width="124px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 62px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131916")}
-        ></View>
-        <Text
-          fontFamily="Arial"
-          fontSize="14px"
-          fontWeight="400"
-          color="rgba(170,170,170,1)"
-          lineHeight="16.0986328125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="171px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 8px - 0px)"
-          left="17px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Fecha"
-          {...getOverrideProps(overrides, "Fecha31917")}
-        ></Text>
-      </View>
-      <View
-        width="124px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
+        whiteSpace="pre-wrap"
+        children="$9999.99"
+        {...getOverrideProps(overrides, "$9999.99")}
+      ></Text>
+      <Button
+        width="unset"
+        height="unset"
         position="absolute"
-        top="1237px"
-        left="903px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31918")}
-      >
-        <View
-          width="124px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 62px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131919")}
-        ></View>
-        <Text
-          fontFamily="Arial"
-          fontSize="14px"
-          fontWeight="400"
-          color="rgba(170,170,170,1)"
-          lineHeight="16.0986328125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="171px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 8px - 0px)"
-          left="17px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Fecha"
-          {...getOverrideProps(overrides, "Fecha31920")}
-        ></Text>
-      </View>
+        top="691px"
+        left="1043px"
+        size="small"
+        isDisabled={false}
+        variation="link"
+        children="Ver Comprobante"
+        {...getOverrideProps(overrides, "Button641620")}
+      ></Button>
+      <Button
+        width="unset"
+        height="unset"
+        position="absolute"
+        top="938px"
+        left="1041px"
+        size="small"
+        isDisabled={false}
+        variation="link"
+        children="Ver Comprobante"
+        {...getOverrideProps(overrides, "Button641626")}
+      ></Button>
     </View>
   );
 }

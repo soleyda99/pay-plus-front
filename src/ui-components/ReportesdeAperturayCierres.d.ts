@@ -6,7 +6,7 @@
 
 import * as React from "react";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
-import { FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, FlexProps, IconProps, ImageProps, SelectFieldProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type ReportesdeAperturayCierresOverridesProps = {
     ReportesdeAperturayCierres?: PrimitiveOverrideProps<ViewProps>;
@@ -34,7 +34,7 @@ export declare type ReportesdeAperturayCierresOverridesProps = {
     Logout31949?: PrimitiveOverrideProps<TextProps>;
     logo?: PrimitiveOverrideProps<ImageProps>;
     "Linea Sistema"?: PrimitiveOverrideProps<FlexProps>;
-    "Rectangle 131953"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
     Footer?: PrimitiveOverrideProps<FlexProps>;
     "Copyright (c) 2012 - 2013 CCM. All rights reserved"?: PrimitiveOverrideProps<TextProps>;
     footer?: PrimitiveOverrideProps<ImageProps>;
@@ -47,26 +47,7 @@ export declare type ReportesdeAperturayCierresOverridesProps = {
     Vector31963?: PrimitiveOverrideProps<IconProps>;
     "Reporte de Apreturas y Cierres"?: PrimitiveOverrideProps<TextProps>;
     "De:"?: PrimitiveOverrideProps<TextProps>;
-    Select31966?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131967"?: PrimitiveOverrideProps<ViewProps>;
-    Fecha31968?: PrimitiveOverrideProps<TextProps>;
     "HASTA:"?: PrimitiveOverrideProps<TextProps>;
-    Select31970?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131971"?: PrimitiveOverrideProps<ViewProps>;
-    Fecha31972?: PrimitiveOverrideProps<TextProps>;
-    Select31973?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131974"?: PrimitiveOverrideProps<ViewProps>;
-    "chevron-down31975"?: PrimitiveOverrideProps<ViewProps>;
-    Vector31976?: PrimitiveOverrideProps<IconProps>;
-    Sucursal?: PrimitiveOverrideProps<TextProps>;
-    Select31978?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131979"?: PrimitiveOverrideProps<ViewProps>;
-    "chevron-down31980"?: PrimitiveOverrideProps<ViewProps>;
-    Vector31981?: PrimitiveOverrideProps<IconProps>;
-    "Todos los cajeros"?: PrimitiveOverrideProps<TextProps>;
-    "BTN Buscar"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131984"?: PrimitiveOverrideProps<ViewProps>;
-    Filtrar?: PrimitiveOverrideProps<TextProps>;
     "Rectangle 35"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 36"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 37"?: PrimitiveOverrideProps<ViewProps>;
@@ -80,6 +61,11 @@ export declare type ReportesdeAperturayCierresOverridesProps = {
     "Total con Apertura"?: PrimitiveOverrideProps<TextProps>;
     Declarado?: PrimitiveOverrideProps<TextProps>;
     Diferencia?: PrimitiveOverrideProps<TextProps>;
+    SelectField641630?: PrimitiveOverrideProps<SelectFieldProps>;
+    SelectField641650?: PrimitiveOverrideProps<SelectFieldProps>;
+    Button?: PrimitiveOverrideProps<ButtonProps>;
+    TextField641659?: PrimitiveOverrideProps<TextFieldProps>;
+    TextField641660?: PrimitiveOverrideProps<TextFieldProps>;
 } & EscapeHatchProps;
 export declare type ReportesdeAperturayCierresProps = React.PropsWithChildren<Partial<ViewProps> & {
     overrides?: ReportesdeAperturayCierresOverridesProps | undefined | null;

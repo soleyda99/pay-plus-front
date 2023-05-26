@@ -7,7 +7,16 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
-import { Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import {
+  Button,
+  Flex,
+  Icon,
+  Image,
+  SelectField,
+  Text,
+  TextField,
+  View,
+} from "@aws-amplify/ui-react";
 export default function ReportesdeAperturayCierres(props) {
   const { overrides, ...rest } = props;
   return (
@@ -464,7 +473,7 @@ export default function ReportesdeAperturayCierres(props) {
           border="1px SOLID rgba(170,170,170,1)"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(255,255,255,0)"
-          {...getOverrideProps(overrides, "Rectangle 131953")}
+          {...getOverrideProps(overrides, "Rectangle 1")}
         ></View>
       </Flex>
       <Flex
@@ -527,8 +536,8 @@ export default function ReportesdeAperturayCierres(props) {
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="506px"
-        left="1061px"
+        top="518px"
+        left="1103px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "healthicons:spreadsheets-outline")}
       >
@@ -602,8 +611,8 @@ export default function ReportesdeAperturayCierres(props) {
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="509px"
-        left="1095px"
+        top="521px"
+        left="1137px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "carbon:generate-pdf")}
       >
@@ -689,64 +698,13 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="508px"
-        left="273px"
+        top="522px"
+        left="230px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="De: "
         {...getOverrideProps(overrides, "De:")}
       ></Text>
-      <View
-        width="99px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="508px"
-        left="314px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31966")}
-      >
-        <View
-          width="99px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 49.5px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131967")}
-        ></View>
-        <Text
-          fontFamily="Arial"
-          fontSize="12px"
-          fontWeight="400"
-          color="rgba(170,170,170,1)"
-          lineHeight="13.798828125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="80px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 7px - 0px)"
-          left="7px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Fecha"
-          {...getOverrideProps(overrides, "Fecha31968")}
-        ></Text>
-      </View>
       <Text
         fontFamily="Times New Roman"
         fontSize="18px"
@@ -762,302 +720,13 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="508px"
-        left="424px"
+        top="522px"
+        left="381px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="HASTA:"
         {...getOverrideProps(overrides, "HASTA:")}
       ></Text>
-      <View
-        width="99px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="508px"
-        left="499px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31970")}
-      >
-        <View
-          width="99px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 49.5px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131971")}
-        ></View>
-        <Text
-          fontFamily="Arial"
-          fontSize="12px"
-          fontWeight="400"
-          color="rgba(170,170,170,1)"
-          lineHeight="13.798828125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="80px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 7px - 0px)"
-          left="7px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Fecha"
-          {...getOverrideProps(overrides, "Fecha31972")}
-        ></Text>
-      </View>
-      <View
-        width="144px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="508px"
-        left="611px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31973")}
-      >
-        <View
-          width="144px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 72px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131974")}
-        ></View>
-        <View
-          width="14px"
-          height="7px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          overflow="hidden"
-          position="absolute"
-          top="calc(50% - 3.5px - -0.5px)"
-          left="calc(50% - 7px - -59px)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "chevron-down31975")}
-        >
-          <Icon
-            width="11.52px"
-            height="5.76px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 11.51953125,
-              height: 5.759765625,
-            }}
-            paths={[
-              {
-                d: "M0.353553 -0.353553C0.158291 -0.548816 -0.158291 -0.548816 -0.353553 -0.353553C-0.548816 -0.158291 -0.548816 0.158291 -0.353553 0.353553L0.353553 -0.353553ZM5.76 5.76L5.40645 6.11355C5.60171 6.30882 5.91829 6.30882 6.11355 6.11355L5.76 5.76ZM11.8736 0.353553C12.0688 0.158291 12.0688 -0.158291 11.8736 -0.353553C11.6783 -0.548816 11.3617 -0.548816 11.1664 -0.353553L11.8736 0.353553ZM-0.353553 0.353553L5.40645 6.11355L6.11355 5.40645L0.353553 -0.353553L-0.353553 0.353553ZM6.11355 6.11355L11.8736 0.353553L11.1664 -0.353553L5.40645 5.40645L6.11355 6.11355Z",
-                stroke: "rgba(0,0,0,1)",
-                fillRule: "nonzero",
-                strokeLinejoin: "round",
-                strokeWidth: 1,
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="1px"
-            left="1px"
-            {...getOverrideProps(overrides, "Vector31976")}
-          ></Icon>
-        </View>
-        <Text
-          fontFamily="Arial"
-          fontSize="14px"
-          fontWeight="400"
-          color="rgba(33,33,33,1)"
-          lineHeight="16.0986328125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="171px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 8px - 0px)"
-          left="8px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Sucursal"
-          {...getOverrideProps(overrides, "Sucursal")}
-        ></Text>
-      </View>
-      <View
-        width="144px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="508px"
-        left="767px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31978")}
-      >
-        <View
-          width="144px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 72px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131979")}
-        ></View>
-        <View
-          width="14px"
-          height="7px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          overflow="hidden"
-          position="absolute"
-          top="calc(50% - 3.5px - -0.5px)"
-          left="calc(50% - 7px - -61px)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "chevron-down31980")}
-        >
-          <Icon
-            width="11.52px"
-            height="5.76px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 11.51953125,
-              height: 5.759765625,
-            }}
-            paths={[
-              {
-                d: "M0.353553 -0.353553C0.158291 -0.548816 -0.158291 -0.548816 -0.353553 -0.353553C-0.548816 -0.158291 -0.548816 0.158291 -0.353553 0.353553L0.353553 -0.353553ZM5.76 5.76L5.40645 6.11355C5.60171 6.30882 5.91829 6.30882 6.11355 6.11355L5.76 5.76ZM11.8736 0.353553C12.0688 0.158291 12.0688 -0.158291 11.8736 -0.353553C11.6783 -0.548816 11.3617 -0.548816 11.1664 -0.353553L11.8736 0.353553ZM-0.353553 0.353553L5.40645 6.11355L6.11355 5.40645L0.353553 -0.353553L-0.353553 0.353553ZM6.11355 6.11355L11.8736 0.353553L11.1664 -0.353553L5.40645 5.40645L6.11355 6.11355Z",
-                stroke: "rgba(0,0,0,1)",
-                fillRule: "nonzero",
-                strokeLinejoin: "round",
-                strokeWidth: 1,
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="1px"
-            left="1px"
-            {...getOverrideProps(overrides, "Vector31981")}
-          ></Icon>
-        </View>
-        <Text
-          fontFamily="Arial"
-          fontSize="14px"
-          fontWeight="400"
-          color="rgba(33,33,33,1)"
-          lineHeight="16.0986328125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="171px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 8px - 0px)"
-          left="8px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Todos los cajeros"
-          {...getOverrideProps(overrides, "Todos los cajeros")}
-        ></Text>
-      </View>
-      <View
-        width="114px"
-        height="28px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="506px"
-        left="932px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "BTN Buscar")}
-      >
-        <View
-          width="114px"
-          height="28px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 14px - 0px)"
-          left="calc(50% - 57px - 0px)"
-          border="1px SOLID rgba(112,112,112,1)"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(227,227,227,1)"
-          {...getOverrideProps(overrides, "Rectangle 131984")}
-        ></View>
-        <Text
-          fontFamily="Times New Roman"
-          fontSize="13px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="0px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 0px - 0px)"
-          left="calc(50% - 16.5px - 0.5px)"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Filtrar"
-          {...getOverrideProps(overrides, "Filtrar")}
-        ></Text>
-      </View>
       <View
         width="968px"
         height="31px"
@@ -1066,7 +735,7 @@ export default function ReportesdeAperturayCierres(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="654px"
+        top="659px"
         left="220px"
         padding="0px 0px 0px 0px"
         backgroundColor="rgba(156,251,255,1)"
@@ -1080,7 +749,7 @@ export default function ReportesdeAperturayCierres(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="685px"
+        top="690px"
         left="220px"
         padding="0px 0px 0px 0px"
         backgroundColor="rgba(255,255,255,1)"
@@ -1094,7 +763,7 @@ export default function ReportesdeAperturayCierres(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="716px"
+        top="721px"
         left="220px"
         padding="0px 0px 0px 0px"
         backgroundColor="rgba(156,251,255,1)"
@@ -1117,7 +786,7 @@ export default function ReportesdeAperturayCierres(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="654px"
+        top="659px"
         left="219px"
         {...getOverrideProps(overrides, "Line 7")}
       ></Icon>
@@ -1136,7 +805,7 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="621px"
+        top="626px"
         left="238px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
@@ -1158,7 +827,7 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="621px"
+        top="626px"
         left="318px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
@@ -1180,7 +849,7 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="621px"
+        top="626px"
         left="424px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
@@ -1202,7 +871,7 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="621px"
+        top="626px"
         left="535px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
@@ -1224,7 +893,7 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="621px"
+        top="626px"
         left="684px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
@@ -1246,7 +915,7 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="621px"
+        top="626px"
         left="786px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
@@ -1268,7 +937,7 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="621px"
+        top="626px"
         left="869px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
@@ -1290,7 +959,7 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="621px"
+        top="626px"
         left="1007px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
@@ -1312,13 +981,77 @@ export default function ReportesdeAperturayCierres(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="621px"
+        top="626px"
         left="1109px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Diferencia"
         {...getOverrideProps(overrides, "Diferencia")}
       ></Text>
+      <SelectField
+        width="191px"
+        height="unset"
+        placeholder="Todos los cajeros"
+        position="absolute"
+        top="513px"
+        left="764px"
+        border="0px SOLID rgba(0,0,0,1)"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "SelectField641630")}
+      ></SelectField>
+      <SelectField
+        width="191px"
+        height="unset"
+        placeholder="Sucursal"
+        position="absolute"
+        top="513px"
+        left="563px"
+        border="0px SOLID rgba(0,0,0,1)"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "SelectField641650")}
+      ></SelectField>
+      <Button
+        width="117px"
+        height="29px"
+        position="absolute"
+        border="1px SOLID rgba(0,0,0,1)"
+        top="518px"
+        left="962px"
+        backgroundColor="rgba(217,217,217,1)"
+        size="large"
+        isDisabled={false}
+        variation="default"
+        children="Filtar"
+        {...getOverrideProps(overrides, "Button")}
+      ></Button>
+      <TextField
+        placeholder="Fecha"
+        position="absolute"
+        top="513px"
+        left="272px"
+        size="large"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField641659")}
+      ></TextField>
+      <TextField
+        placeholder="Fecha"
+        position="absolute"
+        top="513px"
+        left="455px"
+        size="large"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField641660")}
+      ></TextField>
     </View>
   );
 }
