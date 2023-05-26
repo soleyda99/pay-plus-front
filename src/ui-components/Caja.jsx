@@ -21,6 +21,7 @@ import {
 import logo from "../img/logo.jpeg";
 import footer from "../img/footer.jpeg";
 import navbar from "../img/navbar.jpeg";
+import { Link } from "react-router-dom";
 
 export default function Caja(props) {
   const { overrides, ...rest } = props;
@@ -622,22 +623,24 @@ export default function Caja(props) {
         borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641110")}
       ></Button>
-      <Button
-        width="117px"
-        height="29px"
-        position="absolute"
-        border="1px SOLID rgba(0,0,0,1)"
-        top="1383px"
-        left="1040px"
-        backgroundColor="rgba(217,217,217,1)"
-        size="large"
-        isDisabled={false}
-        variation="default"
-        children="Pagar"
-        fontSize="inherit"
-        borderRadius="inherit"
-        {...getOverrideProps(overrides, "Button641125")}
-      ></Button>
+      <Link to="/comprobantedePago">
+        <Button
+          width="117px"
+          height="29px"
+          position="absolute"
+          border="1px SOLID rgba(0,0,0,1)"
+          top="1383px"
+          left="1040px"
+          backgroundColor="rgba(217,217,217,1)"
+          size="large"
+          isDisabled={false}
+          variation="default"
+          children="Pagar"
+          fontSize="inherit"
+          borderRadius="inherit"
+          {...getOverrideProps(overrides, "Button641125")}
+        ></Button>
+      </Link>
       <Button
         width="117px"
         height="29px"

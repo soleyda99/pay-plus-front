@@ -18,6 +18,9 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
+import logo from "../img/logo.jpeg";
+import navbar from "../img/navbar.jpeg";
+import footer from "../img/footer.jpeg";
 export default function ComprobantedePago(props) {
   const { overrides, ...rest } = props;
   return (
@@ -81,6 +84,7 @@ export default function ComprobantedePago(props) {
           height="58px"
           display="block"
           gap="unset"
+          src={navbar}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -454,6 +458,7 @@ export default function ComprobantedePago(props) {
         height="120px"
         display="block"
         gap="unset"
+        src={logo}
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
@@ -505,6 +510,7 @@ export default function ComprobantedePago(props) {
           height="128px"
           display="block"
           gap="unset"
+          src={footer}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -1079,19 +1085,19 @@ export default function ComprobantedePago(props) {
         {...getOverrideProps(overrides, "TextField641236")}
       ></TextField>
       <TextField
-        placeholder="Fecha Inicio"
         position="absolute"
         top="512px"
         left="292px"
         size="large"
+        width="100px"
         isDisabled={false}
         labelHidden={true}
         variation="default"
         {...getOverrideProps(overrides, "TextField641275")}
       ></TextField>
       <TextField
-        placeholder="Fecha Fin"
         position="absolute"
+        width="100px"
         top="512px"
         left="443px"
         size="large"
@@ -1112,6 +1118,8 @@ export default function ComprobantedePago(props) {
         isDisabled={false}
         variation="default"
         children="Buscar"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641251")}
       ></Button>
       <Button
@@ -1126,6 +1134,8 @@ export default function ComprobantedePago(props) {
         isDisabled={false}
         variation="default"
         children="Filtrar"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641264")}
       ></Button>
       <Button
@@ -1140,6 +1150,8 @@ export default function ComprobantedePago(props) {
         isDisabled={false}
         variation="default"
         children="Imprimir"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641289")}
       ></Button>
       <Button
@@ -1154,6 +1166,8 @@ export default function ComprobantedePago(props) {
         isDisabled={false}
         variation="default"
         children="Anular"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641293")}
       ></Button>
       <Button
@@ -1162,12 +1176,14 @@ export default function ComprobantedePago(props) {
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
         top="1339px"
-        left="439px"
+        left="244px"
         backgroundColor="rgba(217,217,217,1)"
         size="large"
         isDisabled={false}
         variation="default"
         children="Siguiente"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641308")}
       ></Button>
       <Button
@@ -1176,12 +1192,14 @@ export default function ComprobantedePago(props) {
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
         top="1339px"
-        left="725px"
+        left="732px"
         backgroundColor="rgba(217,217,217,1)"
         size="large"
         isDisabled={false}
         variation="default"
         children="Último"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641309")}
       ></Button>
       <Button
@@ -1190,12 +1208,14 @@ export default function ComprobantedePago(props) {
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
         top="1339px"
-        left="684px"
+        left="640px"
         backgroundColor="rgba(217,217,217,1)"
         size="large"
         isDisabled={false}
         variation="default"
         children="5"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641321")}
       ></Button>
       <Button
@@ -1204,12 +1224,14 @@ export default function ComprobantedePago(props) {
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
         top="1339px"
-        left="656px"
+        left="580px"
         backgroundColor="rgba(217,217,217,1)"
         size="large"
         isDisabled={false}
         variation="default"
         children="4"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641325")}
       ></Button>
       <Button
@@ -1218,12 +1240,14 @@ export default function ComprobantedePago(props) {
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
         top="1339px"
-        left="628px"
+        left="520px"
         backgroundColor="rgba(217,217,217,1)"
         size="large"
         isDisabled={false}
         variation="default"
         children="3"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641329")}
       ></Button>
       <Button
@@ -1232,12 +1256,14 @@ export default function ComprobantedePago(props) {
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
         top="1339px"
-        left="601px"
+        left="460px"
         backgroundColor="rgba(217,217,217,1)"
         size="large"
         isDisabled={false}
         variation="default"
         children="2"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641333")}
       ></Button>
       <Button
@@ -1246,26 +1272,30 @@ export default function ComprobantedePago(props) {
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
         top="1339px"
-        left="574px"
+        left="400px"
         backgroundColor="rgba(217,217,217,1)"
         size="large"
         isDisabled={false}
         variation="default"
         children="1"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641337")}
       ></Button>
       <Button
-        width="211px"
+        width="250px"
         height="29px"
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
         top="1107px"
-        left="965px"
+        left="945px"
         backgroundColor="rgba(217,217,217,1)"
         size="large"
         isDisabled={false}
         variation="default"
         children="Adjuntar Recibo de Pago"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641271")}
       ></Button>
       <TextAreaField

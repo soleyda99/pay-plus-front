@@ -16,6 +16,9 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
+import logo from "../img/logo.jpeg";
+import navbar from "../img/navbar.jpeg";
+import footer from "../img/footer.jpeg";
 export default function CajaUsuario(props) {
   const { overrides, ...rest } = props;
   return (
@@ -79,6 +82,7 @@ export default function CajaUsuario(props) {
           height="58px"
           display="block"
           gap="unset"
+          src={navbar}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -572,6 +576,7 @@ export default function CajaUsuario(props) {
         display="block"
         gap="unset"
         alignItems="unset"
+        src={logo}
         justifyContent="unset"
         position="absolute"
         top="100px"
@@ -622,6 +627,7 @@ export default function CajaUsuario(props) {
           height="128px"
           display="block"
           gap="unset"
+          src={footer}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -1052,6 +1058,8 @@ export default function CajaUsuario(props) {
         isDisabled={false}
         variation="default"
         children="Guardar"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641357")}
       ></Button>
       <Button
@@ -1065,15 +1073,19 @@ export default function CajaUsuario(props) {
         size="large"
         isDisabled={false}
         variation="default"
+        fontSize="inherit"
+        borderRadius="inherit"
         children="Cierre"
         {...getOverrideProps(overrides, "Button641367")}
       ></Button>
       <TextField
+        width="209px"
+        height="40px"
         placeholder="Monto"
         position="absolute"
-        top="885px"
+        top="910px"
         left="906px"
-        size="large"
+        size="default"
         isDisabled={false}
         labelHidden={true}
         variation="default"

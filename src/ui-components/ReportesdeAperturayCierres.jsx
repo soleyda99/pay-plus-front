@@ -17,6 +17,10 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
+import logo from "../img/logo.jpeg";
+import navbar from "../img/navbar.jpeg";
+import footer from "../img/footer.jpeg";
+
 export default function ReportesdeAperturayCierres(props) {
   const { overrides, ...rest } = props;
   return (
@@ -73,6 +77,7 @@ export default function ReportesdeAperturayCierres(props) {
           border="1px SOLID rgba(170,170,170,1)"
           padding="0px 0px 0px 0px"
           objectFit="cover"
+          src={navbar}
           {...getOverrideProps(overrides, "Menu31930")}
         ></Image>
       </Flex>
@@ -446,6 +451,7 @@ export default function ReportesdeAperturayCierres(props) {
         left="463px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
+        src={logo}
         {...getOverrideProps(overrides, "logo")}
       ></Image>
       <Flex
@@ -524,6 +530,7 @@ export default function ReportesdeAperturayCierres(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           objectFit="cover"
+          src={footer}
           {...getOverrideProps(overrides, "footer")}
         ></Image>
       </Flex>
@@ -680,8 +687,8 @@ export default function ReportesdeAperturayCierres(props) {
         left="219px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Reporte de Apreturas y Cierres"
-        {...getOverrideProps(overrides, "Reporte de Apreturas y Cierres")}
+        children="Reporte de Aperturas y Cierres"
+        {...getOverrideProps(overrides, "Reporte de Aperturas y Cierres")}
       ></Text>
       <Text
         fontFamily="Times New Roman"
@@ -1027,14 +1034,16 @@ export default function ReportesdeAperturayCierres(props) {
         size="large"
         isDisabled={false}
         variation="default"
-        children="Filtar"
+        children="Filtrar"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button")}
       ></Button>
       <TextField
-        placeholder="Fecha"
         position="absolute"
         top="513px"
         left="272px"
+        width="100px"
         size="large"
         isDisabled={false}
         labelHidden={true}
@@ -1042,9 +1051,9 @@ export default function ReportesdeAperturayCierres(props) {
         {...getOverrideProps(overrides, "TextField641659")}
       ></TextField>
       <TextField
-        placeholder="Fecha"
         position="absolute"
         top="513px"
+        width="100px"
         left="455px"
         size="large"
         isDisabled={false}

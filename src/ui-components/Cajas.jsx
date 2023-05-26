@@ -16,6 +16,10 @@ import {
   TextAreaField,
   View,
 } from "@aws-amplify/ui-react";
+import logo from "../img/logo.jpeg";
+import navbar from "../img/navbar.jpeg";
+import footer from "../img/footer.jpeg";
+
 export default function Cajas(props) {
   const { overrides, ...rest } = props;
   return (
@@ -79,6 +83,7 @@ export default function Cajas(props) {
           height="58px"
           display="block"
           gap="unset"
+          src={navbar}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -464,6 +469,7 @@ export default function Cajas(props) {
           width="493px"
           height="120px"
           display="block"
+          src={logo}
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
@@ -684,6 +690,7 @@ export default function Cajas(props) {
           height="128px"
           display="block"
           gap="unset"
+          src={footer}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -1094,7 +1101,7 @@ export default function Cajas(props) {
         {...getOverrideProps(overrides, "$9999.99641419")}
       ></Text>
       <Button
-        width="117px"
+        width="153px"
         height="29px"
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
@@ -1104,6 +1111,8 @@ export default function Cajas(props) {
         size="large"
         isDisabled={false}
         variation="default"
+        fontSize="inherit"
+        borderRadius="inherit"
         children="Cerrar Solicitud"
         {...getOverrideProps(overrides, "Button641426")}
       ></Button>
