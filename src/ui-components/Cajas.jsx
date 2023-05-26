@@ -679,10 +679,10 @@ export default function Cajas(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Copyright (c) 2012 - 2013 CCM. All rights reserved"
+          children="Copyright (c) 2012 - 2023 CCM. All rights reserved"
           {...getOverrideProps(
             overrides,
-            "Copyright (c) 2012 - 2013 CCM. All rights reserved"
+            "Copyright (c) 2012 - 2023 CCM. All rights reserved"
           )}
         ></Text>
         <Image
