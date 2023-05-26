@@ -16,6 +16,10 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
+import logo from "../img/logo.jpeg";
+import footer from "../img/footer.jpeg";
+import navbar from "../img/navbar.jpeg";
+
 export default function CajasAgente(props) {
   const { overrides, ...rest } = props;
   return (
@@ -72,6 +76,7 @@ export default function CajasAgente(props) {
           border="1px SOLID rgba(170,170,170,1)"
           padding="0px 0px 0px 0px"
           objectFit="cover"
+          src={navbar}
           {...getOverrideProps(overrides, "Menu31639")}
         ></Image>
       </Flex>
@@ -454,6 +459,7 @@ export default function CajasAgente(props) {
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
+          src={logo}
           position="relative"
           padding="0px 0px 0px 0px"
           objectFit="cover"
@@ -594,6 +600,7 @@ export default function CajasAgente(props) {
           height="128px"
           display="block"
           gap="unset"
+          src={footer}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -1078,6 +1085,8 @@ export default function CajasAgente(props) {
         size="large"
         isDisabled={false}
         variation="default"
+        fontSize="inherit"
+        borderRadius="inherit"
         children="Actualizar"
         {...getOverrideProps(overrides, "Button641515")}
       ></Button>
@@ -1092,7 +1101,9 @@ export default function CajasAgente(props) {
         size="large"
         isDisabled={false}
         variation="default"
-        children="Filtar"
+        fontSize="inherit"
+        borderRadius="inherit"
+        children="Filtrar"
         {...getOverrideProps(overrides, "Button641519")}
       ></Button>
       <Button

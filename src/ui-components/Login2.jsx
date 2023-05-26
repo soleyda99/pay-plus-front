@@ -124,7 +124,7 @@ export default function Login2(props) {
           justifyContent="unset"
           position="absolute"
           top="233px"
-          left="259px"
+          left="390px"
           {...getOverrideProps(overrides, "Menu145")}
         >
           <Flex

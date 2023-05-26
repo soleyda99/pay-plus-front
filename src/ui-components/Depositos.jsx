@@ -18,6 +18,10 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
+import logo from "../img/logo.jpeg";
+import footer from "../img/footer.jpeg";
+import navbar from "../img/navbar.jpeg";
+
 export default function Depositos(props) {
   const { overrides, ...rest } = props;
   return (
@@ -84,6 +88,7 @@ export default function Depositos(props) {
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
+          src={navbar}
           position="relative"
           border="1px SOLID rgba(170,170,170,1)"
           padding="0px 0px 0px 0px"
@@ -671,6 +676,7 @@ export default function Depositos(props) {
         height="120px"
         display="block"
         gap="unset"
+        src={logo}
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
@@ -725,6 +731,7 @@ export default function Depositos(props) {
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
+          src={footer}
           position="relative"
           padding="0px 0px 0px 0px"
           objectFit="cover"
