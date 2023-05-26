@@ -7,7 +7,15 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
-import { Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import {
+  Button,
+  Flex,
+  Icon,
+  Image,
+  Text,
+  TextField,
+  View,
+} from "@aws-amplify/ui-react";
 export default function CajaUsuario(props) {
   const { overrides, ...rest } = props;
   return (
@@ -555,7 +563,7 @@ export default function CajaUsuario(props) {
           border="1px SOLID rgba(170,170,170,1)"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(255,255,255,0)"
-          {...getOverrideProps(overrides, "Rectangle 131305")}
+          {...getOverrideProps(overrides, "Rectangle 1")}
         ></View>
       </Flex>
       <Image
@@ -623,110 +631,6 @@ export default function CajaUsuario(props) {
           {...getOverrideProps(overrides, "footer")}
         ></Image>
       </Flex>
-      <View
-        width="114px"
-        height="28px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="967px"
-        left="1010px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "BTN Buscar31309")}
-      >
-        <View
-          width="114px"
-          height="28px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 14px - 0px)"
-          left="calc(50% - 57px - 0px)"
-          border="1px SOLID rgba(112,112,112,1)"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(227,227,227,1)"
-          {...getOverrideProps(overrides, "Rectangle 131310")}
-        ></View>
-        <Text
-          fontFamily="Times New Roman"
-          fontSize="13px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="0px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 0px - 0px)"
-          left="calc(50% - 16.5px - 0.5px)"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Cierre"
-          {...getOverrideProps(overrides, "Cierre")}
-        ></Text>
-      </View>
-      <View
-        width="114px"
-        height="28px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="967px"
-        left="875px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "BTN Buscar31312")}
-      >
-        <View
-          width="114px"
-          height="28px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 14px - 0px)"
-          left="calc(50% - 57px - 0px)"
-          border="1px SOLID rgba(112,112,112,1)"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(227,227,227,1)"
-          {...getOverrideProps(overrides, "Rectangle 131313")}
-        ></View>
-        <Text
-          fontFamily="Times New Roman"
-          fontSize="13px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="0px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 0px - 0px)"
-          left="calc(50% - 21.5px - 0.5px)"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Guardar"
-          {...getOverrideProps(overrides, "Guardar")}
-        ></Text>
-      </View>
       <Text
         fontFamily="Times New Roman"
         fontSize="32px"
@@ -749,57 +653,6 @@ export default function CajaUsuario(props) {
         children="Caja - %Usuario%"
         {...getOverrideProps(overrides, "Caja - %Usuario%")}
       ></Text>
-      <View
-        width="108px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="893px"
-        left="911px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select")}
-      >
-        <View
-          width="108px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 54px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131317")}
-        ></View>
-        <Text
-          fontFamily="Arial"
-          fontSize="14px"
-          fontWeight="400"
-          color="rgba(170,170,170,1)"
-          lineHeight="16.0986328125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="45px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 8px - 0px)"
-          left="17px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Monto"
-          {...getOverrideProps(overrides, "Monto")}
-        ></Text>
-      </View>
       <Text
         fontFamily="Times New Roman"
         fontSize="18px"
@@ -1174,6 +1027,58 @@ export default function CajaUsuario(props) {
         children="$ 9999.99"
         {...getOverrideProps(overrides, "$ 9999.9931373")}
       ></Text>
+      <TextField
+        width="209px"
+        height="40px"
+        placeholder="Cliente"
+        position="absolute"
+        top="910px"
+        left="666px"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField641356")}
+      ></TextField>
+      <Button
+        width="117px"
+        height="29px"
+        position="absolute"
+        border="1px SOLID rgba(0,0,0,1)"
+        top="1034px"
+        left="892px"
+        backgroundColor="rgba(217,217,217,1)"
+        size="large"
+        isDisabled={false}
+        variation="default"
+        children="Guardar"
+        {...getOverrideProps(overrides, "Button641357")}
+      ></Button>
+      <Button
+        width="117px"
+        height="29px"
+        position="absolute"
+        border="1px SOLID rgba(0,0,0,1)"
+        top="1034px"
+        left="1028px"
+        backgroundColor="rgba(217,217,217,1)"
+        size="large"
+        isDisabled={false}
+        variation="default"
+        children="Cierre"
+        {...getOverrideProps(overrides, "Button641367")}
+      ></Button>
+      <TextField
+        placeholder="Monto"
+        position="absolute"
+        top="885px"
+        left="906px"
+        size="large"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField641386")}
+      ></TextField>
     </View>
   );
 }

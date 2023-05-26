@@ -7,7 +7,15 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
-import { Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import {
+  Button,
+  Flex,
+  Icon,
+  Image,
+  Text,
+  TextField,
+  View,
+} from "@aws-amplify/ui-react";
 export default function CajasAgente(props) {
   const { overrides, ...rest } = props;
   return (
@@ -478,7 +486,7 @@ export default function CajasAgente(props) {
           border="1px SOLID rgba(170,170,170,1)"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(255,255,255,0)"
-          {...getOverrideProps(overrides, "Rectangle 131729")}
+          {...getOverrideProps(overrides, "Rectangle 1")}
         ></View>
       </Flex>
       <View
@@ -627,246 +635,18 @@ export default function CajasAgente(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="71px"
+        width="53px"
         height="22px"
         gap="unset"
         alignItems="unset"
         position="absolute"
         top="774px"
-        left="529px"
+        left="539px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Hasta:"
         {...getOverrideProps(overrides, "Hasta:")}
       ></Text>
-      <View
-        width="186px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="773px"
-        left="317px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31749")}
-      >
-        <View
-          width="186px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 93px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131750")}
-        ></View>
-        <Text
-          fontFamily="Arial"
-          fontSize="12px"
-          fontWeight="400"
-          color="rgba(170,170,170,1)"
-          lineHeight="13.798828125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="80px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 7px - 0px)"
-          left="7px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Fecha inicio"
-          {...getOverrideProps(overrides, "Fecha inicio")}
-        ></Text>
-      </View>
-      <View
-        width="186px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="773px"
-        left="615px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31752")}
-      >
-        <View
-          width="186px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 93px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131753")}
-        ></View>
-        <Text
-          fontFamily="Arial"
-          fontSize="12px"
-          fontWeight="400"
-          color="rgba(170,170,170,1)"
-          lineHeight="13.798828125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="80px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 7px - 0px)"
-          left="7px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Fecha final"
-          {...getOverrideProps(overrides, "Fecha final")}
-        ></Text>
-      </View>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="25px"
-        fontWeight="700"
-        color="rgba(112,112,112,1)"
-        lineHeight="28.74755859375px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="34px"
-        height="36px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="582px"
-        left="893px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="+"
-        {...getOverrideProps(overrides, "+")}
-      ></Text>
-      <View
-        width="114px"
-        height="28px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="638px"
-        left="1007px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "BTN Buscar31756")}
-      >
-        <View
-          width="114px"
-          height="28px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 14px - 0px)"
-          left="calc(50% - 57px - 0px)"
-          border="1px SOLID rgba(112,112,112,1)"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(227,227,227,1)"
-          {...getOverrideProps(overrides, "Rectangle 131757")}
-        ></View>
-        <Text
-          fontFamily="Times New Roman"
-          fontSize="13px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="0px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 0px - 0px)"
-          left="calc(50% - 27.5px - 0.5px)"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Actualizar&#xA;"
-          {...getOverrideProps(overrides, "Actualizar")}
-        ></Text>
-      </View>
-      <View
-        width="114px"
-        height="28px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="771px"
-        left="827px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "BTN Buscar31761")}
-      >
-        <View
-          width="114px"
-          height="28px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 14px - 0px)"
-          left="calc(50% - 57px - 0px)"
-          border="1px SOLID rgba(112,112,112,1)"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(227,227,227,1)"
-          {...getOverrideProps(overrides, "Rectangle 131762")}
-        ></View>
-        <Text
-          fontFamily="Times New Roman"
-          fontSize="13px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="0px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="unset"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 0px - 0px)"
-          left="calc(50% - 16.5px - 0.5px)"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Filtrar"
-          {...getOverrideProps(overrides, "Filtrar")}
-        ></Text>
-      </View>
       <Text
         fontFamily="Times New Roman"
         fontSize="32px"
@@ -889,201 +669,6 @@ export default function CajasAgente(props) {
         children="Caja - %Agente%"
         {...getOverrideProps(overrides, "Caja - %Agente%")}
       ></Text>
-      <View
-        width="209px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="585px"
-        left="251px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31765")}
-      >
-        <View
-          width="209px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 104.5px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131766")}
-        ></View>
-        <View
-          width="14px"
-          height="7px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          overflow="hidden"
-          position="absolute"
-          top="calc(50% - 3.5px - -0.5px)"
-          left="calc(50% - 7px - -77.5px)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "chevron-down")}
-        >
-          <Icon
-            width="11.52px"
-            height="5.76px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 11.51953125,
-              height: 5.760009765625,
-            }}
-            paths={[
-              {
-                d: "M0.353553 -0.353553C0.158291 -0.548816 -0.158291 -0.548816 -0.353553 -0.353553C-0.548816 -0.158291 -0.548816 0.158291 -0.353553 0.353553L0.353553 -0.353553ZM5.76 5.76L5.40645 6.11355C5.60171 6.30882 5.91829 6.30882 6.11355 6.11355L5.76 5.76ZM11.8736 0.353553C12.0688 0.158291 12.0688 -0.158291 11.8736 -0.353553C11.6783 -0.548816 11.3617 -0.548816 11.1664 -0.353553L11.8736 0.353553ZM-0.353553 0.353553L5.40645 6.11355L6.11355 5.40645L0.353553 -0.353553L-0.353553 0.353553ZM6.11355 6.11355L11.8736 0.353553L11.1664 -0.353553L5.40645 5.40645L6.11355 6.11355Z",
-                stroke: "rgba(0,0,0,1)",
-                fillRule: "nonzero",
-                strokeLinejoin: "round",
-                strokeWidth: 1,
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="1px"
-            left="1px"
-            {...getOverrideProps(overrides, "Vector31768")}
-          ></Icon>
-        </View>
-        <Text
-          fontFamily="Arial"
-          fontSize="14px"
-          fontWeight="400"
-          color="rgba(33,33,33,1)"
-          lineHeight="16.0986328125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="171px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 8px - 0px)"
-          left="8px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Seleccione"
-          {...getOverrideProps(overrides, "Seleccione")}
-        ></Text>
-      </View>
-      <View
-        width="209px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="585px"
-        left="485px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31770")}
-      >
-        <View
-          width="209px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 104.5px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131771")}
-        ></View>
-        <Text
-          fontFamily="Arial"
-          fontSize="14px"
-          fontWeight="400"
-          color="rgba(170,170,170,1)"
-          lineHeight="16.0986328125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="171px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 8px - 0px)"
-          left="17px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Monto Depositado"
-          {...getOverrideProps(overrides, "Monto Depositado")}
-        ></Text>
-      </View>
-      <View
-        width="209px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="589px"
-        left="959px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Select31773")}
-      >
-        <View
-          width="209px"
-          height="24px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="calc(50% - 12px - 0px)"
-          left="calc(50% - 104.5px - 0px)"
-          border="1px SOLID rgba(64,64,64,1)"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle 131775")}
-        ></View>
-        <Text
-          fontFamily="Arial"
-          fontSize="14px"
-          fontWeight="400"
-          color="rgba(170,170,170,1)"
-          lineHeight="16.0986328125px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="171px"
-          height="unset"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="calc(50% - 8px - 0px)"
-          left="17px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Minímo en Depósito"
-          {...getOverrideProps(overrides, "Min\u00EDmo en Dep\u00F3sito")}
-        ></Text>
-      </View>
       <Text
         fontFamily="Times New Roman"
         fontSize="18px"
@@ -1100,7 +685,7 @@ export default function CajasAgente(props) {
         alignItems="unset"
         position="absolute"
         top="543px"
-        left="334px"
+        left="319px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Cuenta"
@@ -1138,13 +723,13 @@ export default function CajasAgente(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="83px"
+        width="52px"
         height="unset"
         gap="unset"
         alignItems="unset"
         position="absolute"
         top="543px"
-        left="550px"
+        left="552px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Monto"
@@ -1182,13 +767,13 @@ export default function CajasAgente(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="160px"
+        width="135px"
         height="unset"
         gap="unset"
         alignItems="unset"
         position="absolute"
         top="543px"
-        left="994px"
+        left="986px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Minímo Depósito"
@@ -1349,130 +934,6 @@ export default function CajasAgente(props) {
         {...getOverrideProps(overrides, "Confirmado por:")}
       ></Text>
       <View
-        width="18px"
-        height="19px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="957px"
-        left="936px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "checkmark-circle-outline31805")}
-      >
-        <Icon
-          width="14.25px"
-          height="14.25px"
-          viewBox={{ minX: 0, minY: 0, width: 14.25, height: 14.25 }}
-          paths={[
-            {
-              d: "M14.75 7.125C14.75 2.91526 11.3347 -0.5 7.125 -0.5L7.125 0.5C10.7825 0.5 13.75 3.46755 13.75 7.125L14.75 7.125ZM7.125 -0.5C2.91526 -0.5 -0.5 2.91526 -0.5 7.125L0.5 7.125C0.5 3.46755 3.46755 0.5 7.125 0.5L7.125 -0.5ZM-0.5 7.125C-0.5 11.3347 2.91526 14.75 7.125 14.75L7.125 13.75C3.46755 13.75 0.5 10.7825 0.5 7.125L-0.5 7.125ZM7.125 14.75C11.3347 14.75 14.75 11.3347 14.75 7.125L13.75 7.125C13.75 10.7825 10.7825 13.75 7.125 13.75L7.125 14.75Z",
-              stroke: "rgba(112,112,112,1)",
-              fillRule: "nonzero",
-              strokeWidth: 1,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="12.5%"
-          bottom="12.5%"
-          left="12.5%"
-          right="8.33%"
-          {...getOverrideProps(overrides, "Vector31806")}
-        ></Icon>
-        <Icon
-          width="6.75px"
-          height="5.94px"
-          viewBox={{ minX: 0, minY: 0, width: 6.75, height: 5.9375 }}
-          paths={[
-            {
-              d: "M7.14124 0.311342C7.31319 0.095268 7.27742 -0.219287 7.06134 -0.391237C6.84527 -0.563186 6.53071 -0.527416 6.35876 -0.311342L7.14124 0.311342ZM2.025 5.9375L1.64453 6.26191C1.74144 6.37557 1.88411 6.43996 2.03346 6.43743C2.18282 6.4349 2.32322 6.36573 2.41624 6.24884L2.025 5.9375ZM0.380475 3.23809C0.201311 3.02796 -0.114275 3.00286 -0.324405 3.18202C-0.534536 3.36119 -0.559639 3.67677 -0.380475 3.88691L0.380475 3.23809ZM6.35876 -0.311342L1.63376 5.62616L2.41624 6.24884L7.14124 0.311342L6.35876 -0.311342ZM2.40548 5.61309L0.380475 3.23809L-0.380475 3.88691L1.64453 6.26191L2.40548 5.61309Z",
-              stroke: "rgba(112,112,112,1)",
-              fillRule: "nonzero",
-              strokeLinejoin: "round",
-              strokeWidth: 1,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="34.38%"
-          bottom="34.38%"
-          left="31.25%"
-          right="31.25%"
-          {...getOverrideProps(overrides, "Vector31807")}
-        ></Icon>
-      </View>
-      <View
-        width="18px"
-        height="19px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="989px"
-        left="936px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "checkmark-circle-outline31808")}
-      >
-        <Icon
-          width="14.25px"
-          height="14.25px"
-          viewBox={{ minX: 0, minY: 0, width: 14.25, height: 14.25 }}
-          paths={[
-            {
-              d: "M14.75 7.125C14.75 2.91526 11.3347 -0.5 7.125 -0.5L7.125 0.5C10.7825 0.5 13.75 3.46755 13.75 7.125L14.75 7.125ZM7.125 -0.5C2.91526 -0.5 -0.5 2.91526 -0.5 7.125L0.5 7.125C0.5 3.46755 3.46755 0.5 7.125 0.5L7.125 -0.5ZM-0.5 7.125C-0.5 11.3347 2.91526 14.75 7.125 14.75L7.125 13.75C3.46755 13.75 0.5 10.7825 0.5 7.125L-0.5 7.125ZM7.125 14.75C11.3347 14.75 14.75 11.3347 14.75 7.125L13.75 7.125C13.75 10.7825 10.7825 13.75 7.125 13.75L7.125 14.75Z",
-              stroke: "rgba(112,112,112,1)",
-              fillRule: "nonzero",
-              strokeWidth: 1,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="12.5%"
-          bottom="12.5%"
-          left="12.5%"
-          right="8.33%"
-          {...getOverrideProps(overrides, "Vector31809")}
-        ></Icon>
-        <Icon
-          width="6.75px"
-          height="5.94px"
-          viewBox={{ minX: 0, minY: 0, width: 6.75, height: 5.9375 }}
-          paths={[
-            {
-              d: "M7.14124 0.311342C7.31319 0.095268 7.27742 -0.219287 7.06134 -0.391237C6.84527 -0.563186 6.53071 -0.527416 6.35876 -0.311342L7.14124 0.311342ZM2.025 5.9375L1.64453 6.26191C1.74144 6.37557 1.88411 6.43996 2.03346 6.43743C2.18282 6.4349 2.32322 6.36573 2.41624 6.24884L2.025 5.9375ZM0.380475 3.23809C0.201311 3.02796 -0.114275 3.00286 -0.324405 3.18202C-0.534536 3.36119 -0.559639 3.67677 -0.380475 3.88691L0.380475 3.23809ZM6.35876 -0.311342L1.63376 5.62616L2.41624 6.24884L7.14124 0.311342L6.35876 -0.311342ZM2.40548 5.61309L0.380475 3.23809L-0.380475 3.88691L1.64453 6.26191L2.40548 5.61309Z",
-              stroke: "rgba(112,112,112,1)",
-              fillRule: "nonzero",
-              strokeLinejoin: "round",
-              strokeWidth: 1,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="34.38%"
-          bottom="34.38%"
-          left="31.25%"
-          right="31.25%"
-          {...getOverrideProps(overrides, "Vector31810")}
-        ></Icon>
-      </View>
-      <View
         width="29px"
         height="29px"
         display="block"
@@ -1515,68 +976,179 @@ export default function CajasAgente(props) {
           {...getOverrideProps(overrides, "Vector31812")}
         ></Icon>
       </View>
-      <View
-        width="18px"
-        height="19px"
+      <Icon
+        width="20px"
+        height="20px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
-        overflow="hidden"
         position="absolute"
         top="927px"
-        left="936px"
+        left="935px"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "checkmark-circle-outline31813")}
+        type="checkmark_circle"
+        fontSize="20px"
+        {...getOverrideProps(overrides, "\uD83D\uDD12Icon641487")}
+      ></Icon>
+      <TextField
+        width="209px"
+        height="40px"
+        placeholder="Monto Depositado"
+        position="absolute"
+        top="580px"
+        left="473px"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField641489")}
+      ></TextField>
+      <TextField
+        width="209px"
+        height="40px"
+        placeholder="Minímo en Depósito"
+        position="absolute"
+        top="580px"
+        left="949px"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField641502")}
+      ></TextField>
+      <TextField
+        width="209px"
+        height="40px"
+        placeholder="Fecha Final"
+        position="absolute"
+        top="767px"
+        left="604px"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField641523")}
+      ></TextField>
+      <TextField
+        width="209px"
+        height="40px"
+        placeholder="Fecha Inicio"
+        position="absolute"
+        top="767px"
+        left="319px"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField641530")}
+      ></TextField>
+      <Flex
+        gap="0"
+        direction="column"
+        width="209px"
+        height="unset"
+        justifyContent="flex-start"
+        alignItems="flex-start"
+        position="absolute"
+        top="580px"
+        left="243px"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "InputGroup")}
       >
-        <Icon
-          width="14.25px"
-          height="14.25px"
-          viewBox={{ minX: 0, minY: 0, width: 14.25, height: 14.25 }}
-          paths={[
-            {
-              d: "M14.75 7.125C14.75 2.91526 11.3347 -0.5 7.125 -0.5L7.125 0.5C10.7825 0.5 13.75 3.46755 13.75 7.125L14.75 7.125ZM7.125 -0.5C2.91526 -0.5 -0.5 2.91526 -0.5 7.125L0.5 7.125C0.5 3.46755 3.46755 0.5 7.125 0.5L7.125 -0.5ZM-0.5 7.125C-0.5 11.3347 2.91526 14.75 7.125 14.75L7.125 13.75C3.46755 13.75 0.5 10.7825 0.5 7.125L-0.5 7.125ZM7.125 14.75C11.3347 14.75 14.75 11.3347 14.75 7.125L13.75 7.125C13.75 10.7825 10.7825 13.75 7.125 13.75L7.125 14.75Z",
-              stroke: "rgba(112,112,112,1)",
-              fillRule: "nonzero",
-              strokeWidth: 1,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="12.5%"
-          bottom="12.5%"
-          left="12.5%"
-          right="8.33%"
-          {...getOverrideProps(overrides, "Vector31814")}
-        ></Icon>
-        <Icon
-          width="6.75px"
-          height="5.94px"
-          viewBox={{ minX: 0, minY: 0, width: 6.75, height: 5.9375 }}
-          paths={[
-            {
-              d: "M7.14124 0.311342C7.31319 0.095268 7.27742 -0.219287 7.06134 -0.391237C6.84527 -0.563186 6.53071 -0.527416 6.35876 -0.311342L7.14124 0.311342ZM2.025 5.9375L1.64453 6.26191C1.74144 6.37557 1.88411 6.43996 2.03346 6.43743C2.18282 6.4349 2.32322 6.36573 2.41624 6.24884L2.025 5.9375ZM0.380475 3.23809C0.201311 3.02796 -0.114275 3.00286 -0.324405 3.18202C-0.534536 3.36119 -0.559639 3.67677 -0.380475 3.88691L0.380475 3.23809ZM6.35876 -0.311342L1.63376 5.62616L2.41624 6.24884L7.14124 0.311342L6.35876 -0.311342ZM2.40548 5.61309L0.380475 3.23809L-0.380475 3.88691L1.64453 6.26191L2.40548 5.61309Z",
-              stroke: "rgba(112,112,112,1)",
-              fillRule: "nonzero",
-              strokeLinejoin: "round",
-              strokeWidth: 1,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="34.38%"
-          bottom="34.38%"
-          left="31.25%"
-          right="31.25%"
-          {...getOverrideProps(overrides, "Vector31815")}
-        ></Icon>
-      </View>
+        <Flex
+          gap="10px"
+          direction="row"
+          width="unset"
+          height="unset"
+          justifyContent="center"
+          alignItems="center"
+          shrink="0"
+          alignSelf="stretch"
+          position="relative"
+          border="1px SOLID rgba(0,0,0,1)"
+          padding="8px 16px 8px 16px"
+          {...getOverrideProps(overrides, "Input")}
+        >
+          <Text
+            fontFamily="Arial"
+            fontSize="16px"
+            fontWeight="400"
+            color="rgba(0,0,0,1)"
+            lineHeight="18.3984375px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="unset"
+            height="unset"
+            gap="unset"
+            alignItems="unset"
+            grow="1"
+            shrink="1"
+            basis="0"
+            position="relative"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Tipo de servicio"
+            {...getOverrideProps(overrides, "placeholder")}
+          ></Text>
+          <Icon
+            width="24px"
+            height="24px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            overflow="hidden"
+            shrink="0"
+            position="relative"
+            padding="0px 0px 0px 0px"
+            type="chevron_down"
+            fontSize="24px"
+            {...getOverrideProps(overrides, "\uD83D\uDD12Icon641499")}
+          ></Icon>
+        </Flex>
+      </Flex>
+      <Button
+        width="117px"
+        height="29px"
+        position="absolute"
+        border="1px SOLID rgba(0,0,0,1)"
+        top="645px"
+        left="1006px"
+        backgroundColor="rgba(217,217,217,1)"
+        size="large"
+        isDisabled={false}
+        variation="default"
+        children="Actualizar"
+        {...getOverrideProps(overrides, "Button641515")}
+      ></Button>
+      <Button
+        width="117px"
+        height="29px"
+        position="absolute"
+        border="1px SOLID rgba(0,0,0,1)"
+        top="772px"
+        left="829px"
+        backgroundColor="rgba(217,217,217,1)"
+        size="large"
+        isDisabled={false}
+        variation="default"
+        children="Filtar"
+        {...getOverrideProps(overrides, "Button641519")}
+      ></Button>
+      <Button
+        width="unset"
+        height="unset"
+        position="absolute"
+        top="585px"
+        left="879px"
+        size="large"
+        isDisabled={true}
+        variation="default"
+        {...getOverrideProps(overrides, "Text Button")}
+      ></Button>
     </View>
   );
 }

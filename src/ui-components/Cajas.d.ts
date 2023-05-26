@@ -6,7 +6,7 @@
 
 import * as React from "react";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
-import { FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, FlexProps, IconProps, ImageProps, TextAreaFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type CajasOverridesProps = {
     Cajas?: PrimitiveOverrideProps<ViewProps>;
@@ -44,14 +44,11 @@ export declare type CajasOverridesProps = {
     "Line 6"?: PrimitiveOverrideProps<IconProps>;
     "Line 5"?: PrimitiveOverrideProps<IconProps>;
     "Linea Sistema"?: PrimitiveOverrideProps<FlexProps>;
-    "Rectangle 131429"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
     logo547?: PrimitiveOverrideProps<ImageProps>;
     Footer?: PrimitiveOverrideProps<FlexProps>;
     "Copyright (c) 2012 - 2013 CCM. All rights reserved"?: PrimitiveOverrideProps<TextProps>;
     footer?: PrimitiveOverrideProps<ImageProps>;
-    "BTN Buscar"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131434"?: PrimitiveOverrideProps<ViewProps>;
-    "Cerrer Solicitud"?: PrimitiveOverrideProps<TextProps>;
     Cajas31436?: PrimitiveOverrideProps<TextProps>;
     ID31437?: PrimitiveOverrideProps<TextProps>;
     "Dep\u00F3sitos pendientes"?: PrimitiveOverrideProps<TextProps>;
@@ -64,26 +61,15 @@ export declare type CajasOverridesProps = {
     Hora?: PrimitiveOverrideProps<TextProps>;
     Cuenta?: PrimitiveOverrideProps<TextProps>;
     "Dep\u00F3sito"?: PrimitiveOverrideProps<TextProps>;
-    "Ver compobante31448"?: PrimitiveOverrideProps<TextProps>;
-    "Ver compobante31449"?: PrimitiveOverrideProps<TextProps>;
-    "Ver compobante31450"?: PrimitiveOverrideProps<TextProps>;
-    Input31451?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131452"?: PrimitiveOverrideProps<ViewProps>;
-    Acumulado?: PrimitiveOverrideProps<TextProps>;
-    "$9999.9931454"?: PrimitiveOverrideProps<TextProps>;
-    Input31455?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131465"?: PrimitiveOverrideProps<ViewProps>;
-    "Deposito disponible"?: PrimitiveOverrideProps<TextProps>;
-    "$9999.9931467"?: PrimitiveOverrideProps<TextProps>;
     "Fecha del d\u00EDa"?: PrimitiveOverrideProps<TextProps>;
-    "lock-open31568"?: PrimitiveOverrideProps<ViewProps>;
-    Vector31569?: PrimitiveOverrideProps<IconProps>;
-    "lock-open31599"?: PrimitiveOverrideProps<ViewProps>;
-    Vector31600?: PrimitiveOverrideProps<IconProps>;
-    "lock-open31601"?: PrimitiveOverrideProps<ViewProps>;
-    Vector31602?: PrimitiveOverrideProps<IconProps>;
-    "lock-open31603"?: PrimitiveOverrideProps<ViewProps>;
-    Vector31605?: PrimitiveOverrideProps<IconProps>;
+    TextAreaField641401?: PrimitiveOverrideProps<TextAreaFieldProps>;
+    "Deposito disponible641402"?: PrimitiveOverrideProps<TextProps>;
+    "$9999.99641403"?: PrimitiveOverrideProps<TextProps>;
+    TextAreaField641417?: PrimitiveOverrideProps<TextAreaFieldProps>;
+    "Deposito disponible641418"?: PrimitiveOverrideProps<TextProps>;
+    "$9999.99641419"?: PrimitiveOverrideProps<TextProps>;
+    Button641426?: PrimitiveOverrideProps<ButtonProps>;
+    Button641430?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type CajasProps = React.PropsWithChildren<Partial<ViewProps> & {
     overrides?: CajasOverridesProps | undefined | null;

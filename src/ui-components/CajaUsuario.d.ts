@@ -6,7 +6,7 @@
 
 import * as React from "react";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
-import { FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, FlexProps, IconProps, ImageProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type CajaUsuarioOverridesProps = {
     CajaUsuario?: PrimitiveOverrideProps<ViewProps>;
@@ -40,21 +40,12 @@ export declare type CajaUsuarioOverridesProps = {
     "Rectangle 27"?: PrimitiveOverrideProps<ViewProps>;
     "Line 5"?: PrimitiveOverrideProps<IconProps>;
     "Linea Sistema"?: PrimitiveOverrideProps<FlexProps>;
-    "Rectangle 131305"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
     logo?: PrimitiveOverrideProps<ImageProps>;
     Footer?: PrimitiveOverrideProps<FlexProps>;
     "Copyright (c) 2012 - 2013 CCM. All rights reserved"?: PrimitiveOverrideProps<TextProps>;
     footer?: PrimitiveOverrideProps<ImageProps>;
-    "BTN Buscar31309"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131310"?: PrimitiveOverrideProps<ViewProps>;
-    Cierre?: PrimitiveOverrideProps<TextProps>;
-    "BTN Buscar31312"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131313"?: PrimitiveOverrideProps<ViewProps>;
-    Guardar?: PrimitiveOverrideProps<TextProps>;
     "Caja - %Usuario%"?: PrimitiveOverrideProps<TextProps>;
-    Select?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 131317"?: PrimitiveOverrideProps<ViewProps>;
-    Monto?: PrimitiveOverrideProps<TextProps>;
     ID?: PrimitiveOverrideProps<TextProps>;
     Usuario?: PrimitiveOverrideProps<TextProps>;
     "Fecha/Hora"?: PrimitiveOverrideProps<TextProps>;
@@ -72,6 +63,10 @@ export declare type CajaUsuarioOverridesProps = {
     "$ 9999.9931371"?: PrimitiveOverrideProps<TextProps>;
     "$ 9999.9931372"?: PrimitiveOverrideProps<TextProps>;
     "$ 9999.9931373"?: PrimitiveOverrideProps<TextProps>;
+    TextField641356?: PrimitiveOverrideProps<TextFieldProps>;
+    Button641357?: PrimitiveOverrideProps<ButtonProps>;
+    Button641367?: PrimitiveOverrideProps<ButtonProps>;
+    TextField641386?: PrimitiveOverrideProps<TextFieldProps>;
 } & EscapeHatchProps;
 export declare type CajaUsuarioProps = React.PropsWithChildren<Partial<ViewProps> & {
     overrides?: CajaUsuarioOverridesProps | undefined | null;
