@@ -18,6 +18,10 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
+import logo from "../img/logo.jpeg";
+import footer from "../img/footer.jpeg";
+import navbar from "../img/navbar.jpeg";
+
 export default function Caja(props) {
   const { overrides, ...rest } = props;
   return (
@@ -81,6 +85,7 @@ export default function Caja(props) {
           height="58px"
           display="block"
           gap="unset"
+          src={navbar}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -88,7 +93,9 @@ export default function Caja(props) {
           border="1px SOLID rgba(170,170,170,1)"
           padding="0px 0px 0px 0px"
           objectFit="cover"
-          {...getOverrideProps(overrides, "Menu3219")}
+          left="50%"
+          transform="translate(-50%, -50%)"
+          {...getOverrideProps(overrides, "Menu125")}
         ></Image>
       </Flex>
       <View
@@ -100,7 +107,7 @@ export default function Caja(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="259px"
+        top="233px"
         left="259px"
         {...getOverrideProps(overrides, "Menu3231")}
       >
@@ -459,6 +466,7 @@ export default function Caja(props) {
         position="absolute"
         top="100px"
         left="463px"
+        src={logo}
         padding="0px 0px 0px 0px"
         objectFit="cover"
         {...getOverrideProps(overrides, "logo")}
@@ -536,6 +544,7 @@ export default function Caja(props) {
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
+          src={footer}
           position="relative"
           padding="0px 0px 0px 0px"
           objectFit="cover"
@@ -584,17 +593,19 @@ export default function Caja(props) {
         left="245px"
         {...getOverrideProps(overrides, "Line 5")}
       ></Icon>
-      <Button
+      {/* <Button
         width="unset"
         height="unset"
         position="absolute"
         top="842px"
         left="1074px"
         size="default"
+        fontSize="inherit"
+        borderRadius="inherit"
         isDisabled={false}
         variation="default"
         {...getOverrideProps(overrides, "Text Button6214025")}
-      ></Button>
+      ></Button> */}
       <Button
         width="117px"
         height="29px"
@@ -607,6 +618,8 @@ export default function Caja(props) {
         isDisabled={false}
         variation="default"
         children="Cambiar"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641110")}
       ></Button>
       <Button
@@ -621,12 +634,16 @@ export default function Caja(props) {
         isDisabled={false}
         variation="default"
         children="Pagar"
+        fontSize="inherit"
+        borderRadius="inherit"
         {...getOverrideProps(overrides, "Button641125")}
       ></Button>
       <Button
         width="117px"
         height="29px"
         position="absolute"
+        fontSize="inherit"
+        borderRadius="inherit"
         border="1px SOLID rgba(0,0,0,1)"
         top="1383px"
         left="243px"
@@ -927,6 +944,7 @@ export default function Caja(props) {
         fontFamily="Times New Roman"
         fontSize="18px"
         fontWeight="700"
+        borderRadius="inherit"
         color="rgba(92,91,91,1)"
         lineHeight="20.6982421875px"
         textAlign="left"
@@ -1077,22 +1095,24 @@ export default function Caja(props) {
         children="DIGICEL"
         {...getOverrideProps(overrides, "DIGICEL")}
       ></Text>
-      <Button
+      {/* <Button
         width="unset"
         height="unset"
         position="absolute"
         top="1096px"
         left="1127px"
+        fontSize="inherit"
+        borderRadius="inherit"
         size="default"
         isDisabled={false}
         variation="default"
         {...getOverrideProps(overrides, "Text Button641104")}
-      ></Button>
+      ></Button> */}
       <TextField
         width="270px"
         height="unset"
         position="absolute"
-        top="625px"
+        top="619px"
         left="547px"
         size="default"
         isDisabled={false}
@@ -1191,6 +1211,8 @@ export default function Caja(props) {
         size="large"
         isDisabled={false}
         variation="default"
+        fontSize="inherit"
+        borderRadius="inherit"
         children="Agregar"
         {...getOverrideProps(overrides, "Button641121")}
       ></Button>

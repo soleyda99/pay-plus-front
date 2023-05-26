@@ -16,6 +16,8 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
+import { Link } from "react-router-dom";
+
 import logo from "../img/logo.jpeg";
 import navbar from "../img/navbar.jpeg";
 import footer from "../img/footer.jpeg";
@@ -473,13 +475,13 @@ export default function Login2(props) {
         <Flex
           gap="0"
           direction="row"
-          width="970px"
+          width="1000px"
           height="567px"
           justifyContent="flex-start"
           alignItems="flex-start"
           position="absolute"
           top="367px"
-          left="calc(50% - 485px - 16px)"
+          left="calc(50% - 470px - 16px)"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "Linea Sistema")}
         >
@@ -498,6 +500,7 @@ export default function Login2(props) {
             {...getOverrideProps(overrides, "Rectangle 1")}
           ></View>
         </Flex>
+
         <Flex
           gap="10px"
           direction="column"
@@ -506,11 +509,11 @@ export default function Login2(props) {
           justifyContent="flex-start"
           alignItems="flex-start"
           position="relative"
-          top="1069px"
+          top="1000px"
           padding="10px 10px 10px 10px"
           {...getOverrideProps(overrides, "Footer")}
         >
-          <Text
+          {/* <Text
             fontFamily="Times New Roman"
             fontSize="14px"
             fontWeight="400"
@@ -533,7 +536,7 @@ export default function Login2(props) {
               overrides,
               "Copyright (c) 2012 - 2013 CCM. All rights reserved"
             )}
-          ></Text>
+          ></Text> */}
           <Image
             width="1070px"
             height="128px"
@@ -609,23 +612,25 @@ export default function Login2(props) {
           children="Usuario"
           {...getOverrideProps(overrides, "Usuario")}
         ></Text>
-        <Button
-          width="117px"
-          height="29px"
-          position="absolute"
-          border="1px SOLID rgba(0,0,0,1)"
-          top="563px"
-          left="50%"
-          backgroundColor="rgba(217,217,217,1)"
-          size="large"
-          isDisabled={false}
-          variation="default"
-          children="Cambiar"
-          fontSize="inherit"
-          borderRadius="inherit"
-          transform="translate(-50%, -50%)"
-          {...getOverrideProps(overrides, "Button")}
-        ></Button>
+        <Link to="/caja">
+          <Button
+            width="117px"
+            height="29px"
+            position="absolute"
+            border="1px SOLID rgba(0,0,0,1)"
+            top="563px"
+            left="50%"
+            backgroundColor="rgba(217,217,217,1)"
+            size="large"
+            isDisabled={false}
+            variation="default"
+            children="Cambiar"
+            fontSize="inherit"
+            borderRadius="inherit"
+            transform="translate(-50%, -50%)"
+            {...getOverrideProps(overrides, "Button")}
+          ></Button>
+        </Link>
       </div>
     </View>
   );
