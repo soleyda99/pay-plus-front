@@ -22,15 +22,12 @@ const App = () => {
         <Route path="/cajas-agente" element={<CajasAgente />}></Route>
         <Route path="/depositos" element={<Depositos />}></Route>
         <Route path="/cajas" element={<Cajas />}></Route>
-        <Route path="/cajaUsuario" element={<CajaUsuario />}></Route>
+        <Route path="/caja-usuario" element={<CajaUsuario />}></Route>
         <Route
           path="/reportes"
           element={<ReportesdeAperturayCierres />}
         ></Route>
-        <Route
-          path="/comprobantedePago"
-          element={<ComprobantedePago />}
-        ></Route>
+        <Route path="/comprobante-pago" element={<ComprobantedePago />}></Route>
       </Routes>
     </>
   );
