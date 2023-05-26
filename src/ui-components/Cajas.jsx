@@ -16,6 +16,9 @@ import {
   TextAreaField,
   View,
 } from "@aws-amplify/ui-react";
+import logo from "../img/logo.jpeg";
+import navbar from "../img/navbar.jpeg";
+import footer from "../img/footer.jpeg";
 export default function Cajas(props) {
   const { overrides, ...rest } = props;
   return (
