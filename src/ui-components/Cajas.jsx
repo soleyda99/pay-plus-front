@@ -19,6 +19,7 @@ import {
 import logo from "../img/logo.jpeg";
 import navbar from "../img/navbar.jpeg";
 import footer from "../img/footer.jpeg";
+
 export default function Cajas(props) {
   const { overrides, ...rest } = props;
   return (
@@ -82,6 +83,7 @@ export default function Cajas(props) {
           height="58px"
           display="block"
           gap="unset"
+          src={navbar}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -467,6 +469,7 @@ export default function Cajas(props) {
           width="493px"
           height="120px"
           display="block"
+          src={logo}
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
@@ -687,6 +690,7 @@ export default function Cajas(props) {
           height="128px"
           display="block"
           gap="unset"
+          src={footer}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"

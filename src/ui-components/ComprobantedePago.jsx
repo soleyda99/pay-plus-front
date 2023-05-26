@@ -18,6 +18,9 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
+import logo from "../img/logo.jpeg";
+import navbar from "../img/navbar.jpeg";
+import footer from "../img/footer.jpeg";
 export default function ComprobantedePago(props) {
   const { overrides, ...rest } = props;
   return (
@@ -81,6 +84,7 @@ export default function ComprobantedePago(props) {
           height="58px"
           display="block"
           gap="unset"
+          src={navbar}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -454,6 +458,7 @@ export default function ComprobantedePago(props) {
         height="120px"
         display="block"
         gap="unset"
+        src={logo}
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
@@ -505,6 +510,7 @@ export default function ComprobantedePago(props) {
           height="128px"
           display="block"
           gap="unset"
+          src={footer}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
