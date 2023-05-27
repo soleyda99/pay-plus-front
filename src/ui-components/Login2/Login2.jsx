@@ -18,9 +18,9 @@ import {
 } from "@aws-amplify/ui-react";
 import { Link } from "react-router-dom";
 
-import logo from "../img/logo.jpeg";
-import navbar from "../img/navbar.jpeg";
-import footer from "../img/footer.jpeg";
+import logo from "../../assets/img/logo.jpeg";
+import navbar from "../../assets/img/navbar.jpeg";
+import footer from "../../assets/img/footer.jpeg";
 
 export default function Login2(props) {
   const { overrides, ...rest } = props;

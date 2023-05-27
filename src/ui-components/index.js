@@ -4,13 +4,13 @@
  * Any changes to this file will be overwritten when running amplify pull. *
  **************************************************************************/
 
-export { default as CajasAgente } from "./CajasAgente";
-export { default as Depositos } from "./Depositos";
-export { default as Caja } from "./Caja";
-export { default as Login } from "./Login";
-export { default as CajaUsuario } from "./CajaUsuario";
-export { default as ComprobantedePago } from "./ComprobantedePago";
-export { default as Cajas } from "./Cajas";
-export { default as ReportesdeAperturayCierres } from "./ReportesdeAperturayCierres";
-export { default as Login2 } from "./Login2";
+export { default as CajasAgente } from "./CajasAgente/CajasAgente";
+export { default as Depositos } from "./Depositos/Depositos";
+export { default as Caja } from "./Caja/Caja";
+export { default as Login } from "./Login/Login";
+export { default as CajaUsuario } from "./CajaUsuario/CajaUsuario";
+export { default as ComprobantedePago } from "./ComprobantesPago/ComprobantedePago";
+export { default as Cajas } from "./Cajas/Cajas";
+export { default as ReportesdeAperturayCierres } from "./ReporteAperturaCierre/ReportesdeAperturayCierres";
+export { default as Login2 } from "./Login2/Login2";
 export { default as studioTheme } from "./studioTheme";

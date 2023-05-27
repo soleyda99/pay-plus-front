@@ -16,10 +16,11 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
-import logo from "../img/logo.jpeg";
-import navbar from "../img/navbar.jpeg";
-import footer from "../img/footer.jpeg";
-export default function CajaUsuario(props) {
+import logo from "../../assets/img/logo.jpeg";
+import footer from "../../assets/img/footer.jpeg";
+import navbar from "../../assets/img/navbar.jpeg";
+
+export default function CajasAgente(props) {
   const { overrides, ...rest } = props;
   return (
     <View
@@ -33,14 +34,14 @@ export default function CajaUsuario(props) {
       position="relative"
       padding="0px 0px 0px 0px"
       backgroundColor="rgba(241,237,237,1)"
-      {...getOverrideProps(overrides, "CajaUsuario")}
+      {...getOverrideProps(overrides, "CajasAgente")}
       {...rest}
     >
       <Flex
         gap="0"
         direction="column"
         width="unset"
-        height="1097px"
+        height="1113px"
         justifyContent="flex-start"
         alignItems="flex-start"
         position="absolute"
@@ -49,21 +50,7 @@ export default function CajaUsuario(props) {
         padding="0px 0px 0px 0px"
         backgroundColor="rgba(255,255,255,1)"
         {...getOverrideProps(overrides, "BG Sistema")}
-      >
-        <View
-          width="1070px"
-          height="960px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          shrink="0"
-          position="relative"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(255,255,255,1)"
-          {...getOverrideProps(overrides, "BG System")}
-        ></View>
-      </Flex>
+      ></Flex>
       <Flex
         gap="0"
         direction="column"
@@ -75,14 +62,13 @@ export default function CajaUsuario(props) {
         top="252px"
         left="169px"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Menu31187")}
+        {...getOverrideProps(overrides, "Menu31632")}
       >
         <Image
           width="1072px"
           height="58px"
           display="block"
           gap="unset"
-          src={navbar}
           alignItems="unset"
           justifyContent="unset"
           shrink="0"
@@ -90,7 +76,8 @@ export default function CajaUsuario(props) {
           border="1px SOLID rgba(170,170,170,1)"
           padding="0px 0px 0px 0px"
           objectFit="cover"
-          {...getOverrideProps(overrides, "Menu31188")}
+          src={navbar}
+          {...getOverrideProps(overrides, "Menu31639")}
         ></Image>
       </Flex>
       <View
@@ -104,7 +91,7 @@ export default function CajaUsuario(props) {
         position="absolute"
         top="259px"
         left="259px"
-        {...getOverrideProps(overrides, "Menu31189")}
+        {...getOverrideProps(overrides, "Menu31640")}
       >
         <Flex
           gap="11px"
@@ -117,7 +104,7 @@ export default function CajaUsuario(props) {
           top="10px"
           left="0px"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Mantenimiento31190")}
+          {...getOverrideProps(overrides, "Mantenimiento31641")}
         >
           <Text
             fontFamily="Times New Roman"
@@ -139,7 +126,7 @@ export default function CajaUsuario(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Mantenimiento"
-            {...getOverrideProps(overrides, "Mantenimiento31191")}
+            {...getOverrideProps(overrides, "Mantenimiento31642")}
           ></Text>
           <View
             width="16px"
@@ -152,7 +139,7 @@ export default function CajaUsuario(props) {
             shrink="0"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "caret-down31192")}
+            {...getOverrideProps(overrides, "caret-down31643")}
           >
             <Icon
               width="10.24px"
@@ -161,7 +148,7 @@ export default function CajaUsuario(props) {
                 minX: 0,
                 minY: 0,
                 width: 10.2392578125,
-                height: 6.59747314453125,
+                height: 6.597412109375,
               }}
               paths={[
                 {
@@ -179,7 +166,7 @@ export default function CajaUsuario(props) {
               bottom="29.38%"
               left="18%"
               right="18%"
-              {...getOverrideProps(overrides, "Vector31193")}
+              {...getOverrideProps(overrides, "Vector31644")}
             ></Icon>
           </View>
         </Flex>
@@ -194,7 +181,7 @@ export default function CajaUsuario(props) {
           top="10px"
           left="198px"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Usuarios31194")}
+          {...getOverrideProps(overrides, "Usuarios31645")}
         >
           <Text
             fontFamily="Times New Roman"
@@ -216,7 +203,7 @@ export default function CajaUsuario(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Usuarios"
-            {...getOverrideProps(overrides, "Usuarios31200")}
+            {...getOverrideProps(overrides, "Usuarios31646")}
           ></Text>
           <View
             width="12px"
@@ -229,7 +216,7 @@ export default function CajaUsuario(props) {
             shrink="0"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "caret-down31201")}
+            {...getOverrideProps(overrides, "caret-down31647")}
           >
             <Icon
               width="10.24px"
@@ -238,7 +225,7 @@ export default function CajaUsuario(props) {
                 minX: 0,
                 minY: 0,
                 width: 10.2392578125,
-                height: 6.59747314453125,
+                height: 6.597412109375,
               }}
               paths={[
                 {
@@ -256,7 +243,7 @@ export default function CajaUsuario(props) {
               bottom="8.77%"
               left="7.33%"
               right="7.34%"
-              {...getOverrideProps(overrides, "Vector31202")}
+              {...getOverrideProps(overrides, "Vector31648")}
             ></Icon>
           </View>
         </Flex>
@@ -306,7 +293,7 @@ export default function CajaUsuario(props) {
             shrink="0"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "caret-down31205")}
+            {...getOverrideProps(overrides, "caret-down31651")}
           >
             <Icon
               width="10.24px"
@@ -315,7 +302,7 @@ export default function CajaUsuario(props) {
                 minX: 0,
                 minY: 0,
                 width: 10.2392578125,
-                height: 6.59747314453125,
+                height: 6.597412109375,
               }}
               paths={[
                 {
@@ -333,7 +320,7 @@ export default function CajaUsuario(props) {
               bottom="8.77%"
               left="7.33%"
               right="7.34%"
-              {...getOverrideProps(overrides, "Vector31221")}
+              {...getOverrideProps(overrides, "Vector31652")}
             ></Icon>
           </View>
         </Flex>
@@ -348,7 +335,7 @@ export default function CajaUsuario(props) {
           top="10px"
           left="477px"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Reportes31222")}
+          {...getOverrideProps(overrides, "Reportes31653")}
         >
           <Text
             fontFamily="Times New Roman"
@@ -370,7 +357,7 @@ export default function CajaUsuario(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Reportes"
-            {...getOverrideProps(overrides, "Reportes31223")}
+            {...getOverrideProps(overrides, "Reportes31688")}
           ></Text>
           <View
             width="12px"
@@ -383,7 +370,7 @@ export default function CajaUsuario(props) {
             shrink="0"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "caret-down31240")}
+            {...getOverrideProps(overrides, "caret-down31715")}
           >
             <Icon
               width="10.24px"
@@ -392,7 +379,7 @@ export default function CajaUsuario(props) {
                 minX: 0,
                 minY: 0,
                 width: 10.2392578125,
-                height: 6.59747314453125,
+                height: 6.597412109375,
               }}
               paths={[
                 {
@@ -410,7 +397,7 @@ export default function CajaUsuario(props) {
               bottom="8.77%"
               left="7.33%"
               right="7.34%"
-              {...getOverrideProps(overrides, "Vector31241")}
+              {...getOverrideProps(overrides, "Vector31716")}
             ></Icon>
           </View>
         </Flex>
@@ -425,7 +412,7 @@ export default function CajaUsuario(props) {
           top="0px"
           left="611px"
           padding="10px 10px 10px 10px"
-          {...getOverrideProps(overrides, "Logout31279")}
+          {...getOverrideProps(overrides, "Logout31720")}
         >
           <Text
             fontFamily="Times New Roman"
@@ -447,79 +434,108 @@ export default function CajaUsuario(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Logout"
-            {...getOverrideProps(overrides, "Logout31280")}
+            {...getOverrideProps(overrides, "Logout31721")}
           ></Text>
         </Flex>
       </View>
-      <View
-        width="970px"
-        height="31px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
+      <Flex
+        gap="10px"
+        direction="column"
+        width="unset"
+        height="unset"
+        justifyContent="flex-start"
+        alignItems="flex-start"
         position="absolute"
-        top="564px"
-        left="219px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(156,251,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 24")}
-      ></View>
-      <View
+        top="112px"
+        left="448px"
+        padding="10px 10px 10px 10px"
+        {...getOverrideProps(overrides, "Logo")}
+      >
+        <Image
+          width="493px"
+          height="120px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          shrink="0"
+          src={logo}
+          position="relative"
+          padding="0px 0px 0px 0px"
+          objectFit="cover"
+          {...getOverrideProps(overrides, "logo")}
+        ></Image>
+      </Flex>
+      <Flex
+        gap="0"
+        direction="row"
         width="970px"
-        height="31px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
+        height="732px"
+        justifyContent="flex-start"
+        alignItems="flex-start"
         position="absolute"
-        top="595px"
-        left="219px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 25")}
-      ></View>
-      <View
-        width="970px"
-        height="31px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="626px"
-        left="219px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(156,251,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 26")}
-      ></View>
-      <View
-        width="970px"
-        height="31px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="688px"
-        left="219px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(156,251,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 28")}
-      ></View>
-      <View
-        width="970px"
-        height="31px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="657px"
-        left="219px"
+        top="367px"
+        left="calc(50% - 485px - 16px)"
         padding="0px 0px 0px 0px"
         backgroundColor="rgba(255,255,255,1)"
-        {...getOverrideProps(overrides, "Rectangle 27")}
+        {...getOverrideProps(overrides, "Linea Sistema")}
+      >
+        <View
+          width="970px"
+          height="732px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          shrink="0"
+          position="relative"
+          border="1px SOLID rgba(170,170,170,1)"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(255,255,255,0)"
+          {...getOverrideProps(overrides, "Rectangle 1")}
+        ></View>
+      </Flex>
+      <View
+        width="968px"
+        height="31px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="920px"
+        left="220px"
+        padding="0px 0px 0px 0px"
+        backgroundColor="rgba(156,251,255,1)"
+        {...getOverrideProps(overrides, "Rectangle 32")}
+      ></View>
+      <View
+        width="968px"
+        height="31px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="951px"
+        left="220px"
+        padding="0px 0px 0px 0px"
+        backgroundColor="rgba(255,255,255,1)"
+        {...getOverrideProps(overrides, "Rectangle 33")}
+      ></View>
+      <View
+        width="968px"
+        height="31px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="982px"
+        left="220px"
+        padding="0px 0px 0px 0px"
+        backgroundColor="rgba(156,251,255,1)"
+        {...getOverrideProps(overrides, "Rectangle 34")}
       ></View>
       <Icon
         width="970px"
@@ -538,53 +554,10 @@ export default function CajaUsuario(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="564px"
+        top="920px"
         left="219px"
-        {...getOverrideProps(overrides, "Line 5")}
+        {...getOverrideProps(overrides, "Line 6")}
       ></Icon>
-      <Flex
-        gap="0"
-        direction="row"
-        width="970px"
-        height="748px"
-        justifyContent="flex-start"
-        alignItems="flex-start"
-        position="absolute"
-        top="367px"
-        left="calc(50% - 485px - 16px)"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Linea Sistema")}
-      >
-        <View
-          width="970px"
-          height="748px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          shrink="0"
-          position="relative"
-          border="1px SOLID rgba(170,170,170,1)"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(255,255,255,0)"
-          {...getOverrideProps(overrides, "Rectangle 1")}
-        ></View>
-      </Flex>
-      <Image
-        width="493px"
-        height="120px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        src={logo}
-        justifyContent="unset"
-        position="absolute"
-        top="100px"
-        left="463px"
-        padding="0px 0px 0px 0px"
-        objectFit="cover"
-        {...getOverrideProps(overrides, "logo")}
-      ></Image>
       <Flex
         gap="10px"
         direction="column"
@@ -593,7 +566,7 @@ export default function CajaUsuario(props) {
         justifyContent="flex-start"
         alignItems="flex-start"
         position="absolute"
-        top="1204px"
+        top="1214px"
         left="155px"
         padding="10px 10px 10px 10px"
         {...getOverrideProps(overrides, "Footer")}
@@ -639,6 +612,50 @@ export default function CajaUsuario(props) {
       </Flex>
       <Text
         fontFamily="Times New Roman"
+        fontSize="18px"
+        fontWeight="400"
+        color="rgba(92,91,91,1)"
+        lineHeight="20.6982421875px"
+        textAlign="right"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="36px"
+        height="22px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="774px"
+        left="272px"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="De: "
+        {...getOverrideProps(overrides, "De:")}
+      ></Text>
+      <Text
+        fontFamily="Times New Roman"
+        fontSize="18px"
+        fontWeight="400"
+        color="rgba(92,91,91,1)"
+        lineHeight="20.6982421875px"
+        textAlign="right"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="53px"
+        height="22px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="774px"
+        left="539px"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Hasta:"
+        {...getOverrideProps(overrides, "Hasta:")}
+      ></Text>
+      <Text
+        fontFamily="Times New Roman"
         fontSize="32px"
         fontWeight="400"
         color="rgba(92,91,91,1)"
@@ -656,8 +673,8 @@ export default function CajaUsuario(props) {
         left="219px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Caja - %Usuario%"
-        {...getOverrideProps(overrides, "Caja - %Usuario%")}
+        children="Caja - %Agente%"
+        {...getOverrideProps(overrides, "Caja - %Agente%")}
       ></Text>
       <Text
         fontFamily="Times New Roman"
@@ -674,7 +691,117 @@ export default function CajaUsuario(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="515px"
+        top="543px"
+        left="319px"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Cuenta"
+        {...getOverrideProps(overrides, "Cuenta31779")}
+      ></Text>
+      <Text
+        fontFamily="Times New Roman"
+        fontSize="18px"
+        fontWeight="700"
+        color="rgba(92,91,91,1)"
+        lineHeight="20.6982421875px"
+        textAlign="left"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="166px"
+        height="unset"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="712px"
+        left="243px"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Lista de Depósitos"
+        {...getOverrideProps(overrides, "Lista de Dep\u00F3sitos")}
+      ></Text>
+      <Text
+        fontFamily="Times New Roman"
+        fontSize="18px"
+        fontWeight="700"
+        color="rgba(92,91,91,1)"
+        lineHeight="20.6982421875px"
+        textAlign="left"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="52px"
+        height="unset"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="543px"
+        left="552px"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Monto"
+        {...getOverrideProps(overrides, "Monto")}
+      ></Text>
+      <Text
+        fontFamily="Times New Roman"
+        fontSize="18px"
+        fontWeight="700"
+        color="rgba(92,91,91,1)"
+        lineHeight="20.6982421875px"
+        textAlign="left"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="111px"
+        height="unset"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="543px"
+        left="736px"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Comprobante"
+        {...getOverrideProps(overrides, "Comprobante")}
+      ></Text>
+      <Text
+        fontFamily="Times New Roman"
+        fontSize="18px"
+        fontWeight="700"
+        color="rgba(92,91,91,1)"
+        lineHeight="20.6982421875px"
+        textAlign="left"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="135px"
+        height="unset"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="543px"
+        left="986px"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Minímo Depósito"
+        {...getOverrideProps(overrides, "Min\u00EDmo Dep\u00F3sito")}
+      ></Text>
+      <Text
+        fontFamily="Times New Roman"
+        fontSize="18px"
+        fontWeight="700"
+        color="rgba(92,91,91,1)"
+        lineHeight="20.6982421875px"
+        textAlign="left"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="unset"
+        height="unset"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="856px"
         left="251px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
@@ -696,12 +823,12 @@ export default function CajaUsuario(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="515px"
-        left="336px"
+        top="856px"
+        left="367px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Usuario"
-        {...getOverrideProps(overrides, "Usuario")}
+        children="Fecha"
+        {...getOverrideProps(overrides, "Fecha")}
       ></Text>
       <Text
         fontFamily="Times New Roman"
@@ -718,12 +845,12 @@ export default function CajaUsuario(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="515px"
-        left="491px"
+        top="856px"
+        left="489px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Fecha/Hora"
-        {...getOverrideProps(overrides, "Fecha/Hora")}
+        children="Hora"
+        {...getOverrideProps(overrides, "Hora")}
       ></Text>
       <Text
         fontFamily="Times New Roman"
@@ -740,12 +867,12 @@ export default function CajaUsuario(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="515px"
-        left="700px"
+        top="856px"
+        left="613px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Efectivo"
-        {...getOverrideProps(overrides, "Efectivo")}
+        children="Cuenta"
+        {...getOverrideProps(overrides, "Cuenta31801")}
       ></Text>
       <Text
         fontFamily="Times New Roman"
@@ -762,12 +889,12 @@ export default function CajaUsuario(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="515px"
-        left="870px"
+        top="856px"
+        left="758px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Cheque"
-        {...getOverrideProps(overrides, "Cheque31359")}
+        children="Depósito"
+        {...getOverrideProps(overrides, "Dep\u00F3sito")}
       ></Text>
       <Text
         fontFamily="Times New Roman"
@@ -779,171 +906,17 @@ export default function CajaUsuario(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="68px"
+        width="117px"
         height="unset"
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="515px"
-        left="1048px"
+        top="857px"
+        left="890px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Tarjeta"
-        {...getOverrideProps(overrides, "Tarjeta31360")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="14px"
-        fontWeight="700"
-        color="rgba(92,91,91,1)"
-        lineHeight="16.0986328125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="125px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="843px"
-        left="346px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Retiro Efectivo"
-        {...getOverrideProps(overrides, "Retiro Efectivo")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="14px"
-        fontWeight="700"
-        color="rgba(92,91,91,1)"
-        lineHeight="16.0986328125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="65px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="897px"
-        left="242px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Totales:"
-        {...getOverrideProps(overrides, "Totales:")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="14px"
-        fontWeight="700"
-        color="rgba(92,91,91,1)"
-        lineHeight="16.0986328125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="51px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="843px"
-        left="625px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Tarjeta"
-        {...getOverrideProps(overrides, "Tarjeta31365")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="14px"
-        fontWeight="700"
-        color="rgba(92,91,91,1)"
-        lineHeight="16.0986328125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="84px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="842px"
-        left="508px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Cheque"
-        {...getOverrideProps(overrides, "Cheque31366")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="14px"
-        fontWeight="700"
-        color="rgba(92,91,91,1)"
-        lineHeight="16.0986328125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="155px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="843px"
-        left="742px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Total con Apertura"
-        {...getOverrideProps(overrides, "Total con Apertura")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="14px"
-        fontWeight="700"
-        color="rgba(92,91,91,1)"
-        lineHeight="16.0986328125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="83px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="843px"
-        left="924px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Declarado"
-        {...getOverrideProps(overrides, "Declarado")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="14px"
-        fontWeight="700"
-        color="rgba(92,91,91,1)"
-        lineHeight="16.0986328125px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="76px"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="843px"
-        left="1078px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Diferencia"
-        {...getOverrideProps(overrides, "Diferencia")}
+        children="Confirmación"
+        {...getOverrideProps(overrides, "Confirmaci\u00F3n")}
       ></Text>
       <Text
         fontFamily="Times New Roman"
@@ -955,142 +928,211 @@ export default function CajaUsuario(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="unset"
+        width="135px"
         height="unset"
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="754px"
-        left="568px"
+        top="857px"
+        left="1029px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="TOTALES:"
-        {...getOverrideProps(overrides, "TOTALES:")}
+        children="Confirmado por:"
+        {...getOverrideProps(overrides, "Confirmado por:")}
       ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="18px"
-        fontWeight="700"
-        color="rgba(92,91,91,1)"
-        lineHeight="20.6982421875px"
-        textAlign="left"
+      <Icon
+        width="20px"
+        height="20px"
         display="block"
-        direction="column"
-        justifyContent="unset"
-        width="unset"
-        height="unset"
         gap="unset"
         alignItems="unset"
-        position="absolute"
-        top="754px"
-        left="1046px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="$ 9999.99"
-        {...getOverrideProps(overrides, "$ 9999.9931371")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="18px"
-        fontWeight="700"
-        color="rgba(92,91,91,1)"
-        lineHeight="20.6982421875px"
-        textAlign="left"
-        display="block"
-        direction="column"
         justifyContent="unset"
-        width="unset"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
         position="absolute"
-        top="754px"
-        left="876px"
+        top="927px"
+        left="935px"
         padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="$ 9999.99"
-        {...getOverrideProps(overrides, "$ 9999.9931372")}
-      ></Text>
-      <Text
-        fontFamily="Times New Roman"
-        fontSize="18px"
-        fontWeight="700"
-        color="rgba(92,91,91,1)"
-        lineHeight="20.6982421875px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="unset"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="754px"
-        left="706px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="$ 9999.99"
-        {...getOverrideProps(overrides, "$ 9999.9931373")}
-      ></Text>
+        type="checkmark_circle"
+        fontSize="20px"
+        {...getOverrideProps(overrides, "\uD83D\uDD12Icon641487")}
+      ></Icon>
       <TextField
         width="209px"
         height="40px"
-        placeholder="Cliente"
+        placeholder="Monto Depositado"
         position="absolute"
-        top="910px"
-        left="666px"
+        top="580px"
+        left="473px"
         size="default"
         isDisabled={false}
         labelHidden={true}
         variation="default"
-        {...getOverrideProps(overrides, "TextField641356")}
+        {...getOverrideProps(overrides, "TextField641489")}
       ></TextField>
-      <Button
-        width="117px"
-        height="29px"
+      <TextField
+        width="209px"
+        height="40px"
+        placeholder="Minímo en Depósito"
         position="absolute"
-        border="1px SOLID rgba(0,0,0,1)"
-        top="1034px"
-        left="892px"
-        backgroundColor="rgba(217,217,217,1)"
-        size="large"
+        top="580px"
+        left="949px"
+        size="default"
         isDisabled={false}
+        labelHidden={true}
         variation="default"
-        children="Guardar"
-        fontSize="inherit"
-        borderRadius="inherit"
-        {...getOverrideProps(overrides, "Button641357")}
-      ></Button>
+        {...getOverrideProps(overrides, "TextField641502")}
+      ></TextField>
+      <TextField
+        width="209px"
+        height="40px"
+        placeholder="Fecha Final"
+        position="absolute"
+        top="767px"
+        left="604px"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField641523")}
+      ></TextField>
+      <TextField
+        width="209px"
+        height="40px"
+        placeholder="Fecha Inicio"
+        position="absolute"
+        top="767px"
+        left="319px"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField641530")}
+      ></TextField>
+      <Flex
+        gap="0"
+        direction="column"
+        width="209px"
+        height="unset"
+        justifyContent="flex-start"
+        alignItems="flex-start"
+        position="absolute"
+        top="580px"
+        left="243px"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "InputGroup")}
+      >
+        <Flex
+          gap="10px"
+          direction="row"
+          width="unset"
+          height="unset"
+          justifyContent="center"
+          alignItems="center"
+          shrink="0"
+          alignSelf="stretch"
+          position="relative"
+          border="1px SOLID rgba(0,0,0,1)"
+          padding="8px 16px 8px 16px"
+          {...getOverrideProps(overrides, "Input")}
+        >
+          <Text
+            fontFamily="Arial"
+            fontSize="16px"
+            fontWeight="400"
+            color="rgba(0,0,0,1)"
+            lineHeight="18.3984375px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="unset"
+            height="unset"
+            gap="unset"
+            alignItems="unset"
+            grow="1"
+            shrink="1"
+            basis="0"
+            position="relative"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Tipo de servicio"
+            {...getOverrideProps(overrides, "placeholder")}
+          ></Text>
+          <Icon
+            width="24px"
+            height="24px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            overflow="hidden"
+            shrink="0"
+            position="relative"
+            padding="0px 0px 0px 0px"
+            type="chevron_down"
+            fontSize="24px"
+            {...getOverrideProps(overrides, "\uD83D\uDD12Icon641499")}
+          ></Icon>
+        </Flex>
+      </Flex>
       <Button
         width="117px"
         height="29px"
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
-        top="1034px"
-        left="1028px"
+        top="645px"
+        left="1006px"
         backgroundColor="rgba(217,217,217,1)"
         size="large"
         isDisabled={false}
         variation="default"
         fontSize="inherit"
         borderRadius="inherit"
-        children="Cierre"
-        {...getOverrideProps(overrides, "Button641367")}
+        children="Actualizar"
+        {...getOverrideProps(overrides, "Button641515")}
       ></Button>
-      <TextField
-        width="209px"
-        height="40px"
-        placeholder="Monto"
+      <Button
+        width="117px"
+        height="29px"
         position="absolute"
-        top="910px"
-        left="906px"
-        size="default"
+        border="1px SOLID rgba(0,0,0,1)"
+        top="772px"
+        left="829px"
+        backgroundColor="rgba(217,217,217,1)"
+        size="large"
         isDisabled={false}
-        labelHidden={true}
         variation="default"
-        {...getOverrideProps(overrides, "TextField641386")}
-      ></TextField>
+        fontSize="inherit"
+        borderRadius="inherit"
+        children="Filtrar"
+        {...getOverrideProps(overrides, "Button641519")}
+      ></Button>
+      <Button
+        width="unset"
+        height="unset"
+        position="absolute"
+        top="585px"
+        left="879px"
+        size="large"
+        isDisabled={true}
+        variation="default"
+        {...getOverrideProps(overrides, "Text Button")}
+      ></Button>
+      <Icon
+        width="24px"
+        height="24px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        overflow="hidden"
+        position="absolute"
+        top="590px"
+        left="788px"
+        padding="0px 0px 0px 0px"
+        type="warning"
+        fontSize="24px"
+        {...getOverrideProps(overrides, "\uD83D\uDD12Icon641688")}
+      ></Icon>
     </View>
   );
 }
