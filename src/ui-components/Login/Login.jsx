@@ -20,7 +20,7 @@ import navbar from "../../assets/img/navbar.jpeg";
 import { useForm } from "react-hook-form";
 import { postLogin } from "./services/api.js";
 import { useNavigate } from "react-router-dom";
-import { setToken } from "../../helpers/auth";
+import { setToken, setUser } from "../../helpers/auth";
 
 export default function Login(props) {
   const { overrides, ...rest } = props;
@@ -30,12 +30,16 @@ export default function Login(props) {
 
   const onSubmit = async (data) => {
     const response = await postLogin(data);
-    if (response.ok) {
-      setToken(response);
+    let {ok,message} = response.data
+    if (ok) {
+      const {data} = response.data
+      const {token,user} = data
+      setToken(token);
+      setUser(JSON.stringify(user));
       setError("");
       navigate("login2");
     } else {
-      setError(response.message);
+      setError(message);
     }
   };
 
